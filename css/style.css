@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --clr-blue-500: #007bff;
+    --clr-blue-500-darker: #19589bfa;
+    --clr-yellow-500: rgb(226, 208, 43);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-regular-200: hsl(0, 0%, 83%);
+    --clr-neutral-200: hsl(217, 12%, 63%);
+    --clr-neutral-400: hsl(216, 12%, 54%);
+    --clr-neutral-700: hsl(213, 19%, 18%);
+    --clr-neutral-900: hsl(216, 12%, 8%);
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    /* border: 2px solid red; */
+}
+/* Styling for the landing page */
+.landing-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.landing-page > h1 > .title-blue {
+    color: var(--clr-blue-500);
+}
+
+.landing-page h1 {
+    margin-bottom: 20px;
+}
+
+.landing-page p {
+    margin-bottom: 30px;
+}
+
+.landing-page #start-quiz-btn {
+    background-color: var(--clr-neutral-100);
+    border-radius: 5px;
+    color: var(--clr-neutral-700);
+    transition: 300ms ease-out;
+}
+
+.landing-page #start-quiz-btn:hover{
+    /* border-radius: 15px; */
+    cursor: pointer;
+    color: var(--clr-highlight-500);
+    box-shadow: inset 5.5rem 0 0 0 var(--clr-blue-500);
+    transform: scale(1.15);
+}
+
+/* Hide the quiz container initially */
+#quiz-container {
+    display: none;
+}
+
+/* Styling for the question container */
+.question-container {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the question text */
+  .question-container h1 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the question image */
+  .question-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the options grid */
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  /* Styling for the individual option items */
+  .options-grid li {
+    list-style: none;
+  }
+  
+  /* Styling for the option labels */
+  .options-grid label {
+    display: block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Apply a different background color when hovering over options */
+  .options-grid label:hover {
+    background-color: #e9e9e9;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0; /* Adjust this padding as needed */
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+  }
+  
+  footer a {
+    color: var(--clr-blue-500);
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    /* border-radius: 4px; */
+    background-color: var(--clr-blue-500);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  
+   /* Make the footer stick to the last 10% of the screen  */
+         /* @media screen and (min-height: 600px) {
+    footer {
+      position: sticky;
+      margin-top: 90vh;  
+    }
+  }  */
+  
+
