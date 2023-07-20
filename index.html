@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Driver's License Test Quiz</title>
+    <title>PA Drivers Manual</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
 </head>
@@ -14,31 +14,36 @@
         <p>This quiz app is made with the purpose of making future drivers make their preparation as easy as possible, myself included!</p>
         <button id="start-quiz-btn">Start Quiz</button>
     </div>
-
+    <div class="centered-content">
+        <h1><span class="tip">Pro Tip:</span> <br> Use the numbpad to your advantage!  <br> <br><span>ENTER</span> key: clicks next question <br> <span>1,2,3,4</span>: chooses respective option</h1>
+    </div>
     <div class="container" id="quiz-container" style="display: none;">
-        <h1>Driver's License Test Quiz</h1>
+        <h1>Question Generator - good luck!</h1>
        <!-- Inside the 'quizContainer' -->
 <div class="question-container">
     <h1>Question Text Goes Here</h1>
     <img src="images/stop-sign.jpg" alt="Question Image" />
     <ul class="options-grid">
         <li>
-          <button type="button" name="question0" class="quiz-option" id="option1" value="0">Option 1</button>
+          <button type="button" name="question0" class="quiz-option" id="option1" value="1" data-key="1"> Option 1</button>
         </li>
         <li>
-          <button type="button" name="question0" class="quiz-option" id="option2" value="1">Option 2</button>
+          <button type="button" name="question0" class="quiz-option" id="option2" value="2" data-key="2"> Option 2</button>
         </li>
         <li>
-          <button type="button" name="question0" class="quiz-option" id="option3" value="2">Option 3</button>
+          <button type="button" name="question0" class="quiz-option" id="option3" value="3" data-key="3"> Option 3</button>
         </li>
         <li>
-          <button type="button" name="question0" class="quiz-option" id="option4" value="3">Option 4</button>
+          <button type="button" name="question0" class="quiz-option" id="option4" value="4" data-key="4"> Option 4</button>
         </li>
       </ul>
   </div>
-  <button id="next-question-btn" class="quiz-option" style="display: none;">Next Question</button>
+  <div class="next-question-btn-wrapper">
+     <button id="next-question-btn" class="btn-container"  style="display: none;">Next Question</button>
+     <span id="score-display">Score: 55</span>
+  </div>
     </div>
-
+    <!-- <div id="score-display">55</div> -->
     <footer>
         Made by <a target="_blank" href="https://github.com/ivan00stojanovic">Ivan</a>
     </footer>

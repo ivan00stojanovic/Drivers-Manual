@@ -69,6 +69,50 @@ button#submit-btn:hover {
   transform: scale(1.15);
 }
 
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Set the height of the container to vertically center the content */
+    margin-top: 4.5rem;
+  }
+
+  .centered-content span {
+    color: var(--clr-blue-500);
+   }   
+
+   @keyframes tip {
+    0% {
+      transform: translateY(0px);
+    }
+    5% {
+      transform: translateY(-25px);
+    }
+    20%, 100%{
+        transform: translateY(0px);
+    }
+  }
+
+  .centered-content .tip{
+    display: inline-block;
+        margin-left: 10rem;
+        animation: tip 3500ms ease-out;
+        animation-delay: 1500ms;
+        animation-iteration-count: 10;
+    }
+
+
+  /* Style the h1 inside the centered-content div */
+  .centered-content h1 {
+    font-size: 24px;
+    color: #333;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-top: none;
+    /* Add any additional styling you want for the centered h1 */
+  }
+
 /* Hide the quiz container initially */
 #quiz-container {
   display: none;
@@ -146,6 +190,8 @@ button#submit-btn:hover {
   color: var(--clr-blue-500);
   font-size: 18px;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s;
+  width: 35rem;
+  height: 5rem;
 }
 
 .quiz-option:hover {
@@ -162,6 +208,58 @@ button#submit-btn:hover {
   transform: scale(0.95);
 }
 
+ /* #next-question-btn {
+    margin-left: 55rem;
+} */
+
+.next-question-btn-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@keyframes peace {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+    .animate-peace {
+        /* Apply the animation styles to the button */
+        animation: peace 300ms ease-out;
+        display: none;
+    }
+
+ .next-question-btn-wrapper > #next-question-btn{
+    cursor: pointer;
+    margin: auto;
+    padding: 12px 32px;
+    border: 2px solid var(--clr-blue-500);
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--clr-blue-500);
+    font-size: 18px;
+    transition:  0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s;
+}
+
+.next-question-btn-wrapper > #next-question-btn:hover{
+    cursor: pointer;
+  color: var(--clr-neutral-100);
+  box-shadow: inset 11.6rem 0 0 0 var(--clr-blue-500);
+  transform: scale(1.15);
+}
+
+#score-display {
+    margin-top: 20px;
+    font-size: 22px;
+    color: var(--clr-blue-500);
+    margin-top: 8rem;
+    position: fixed;
+  }
 /* Styling for the footer */
 footer {
   position: fixed;
