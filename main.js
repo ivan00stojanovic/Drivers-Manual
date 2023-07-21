@@ -10,7 +10,7 @@ const optionOne = document.getElementById('option1')
 const optionTwo = document.getElementById('option2')
 const optionThree = document.getElementById('option3')
 const optionFour = document.getElementById('option4')
-const options = document.querySelector('.quiz-option')
+// const options = document.querySelector('.quiz-option')
 const optionsArray = [optionOne, optionTwo, optionThree, optionFour]
 const startQuizBtn = document.getElementById("start-quiz-btn");
 
@@ -31,8 +31,7 @@ startQuizBtn.addEventListener("click", () => {
     // Hide the landing page and show the quiz container
     landingPage.style.display = "none"; tipSection.style.display = 'none';
     quizContainer.style.display = "block";
-    // displayQuestion(quizQuestions[Math.floor(Math.random() * 16)])
-    console.log(quizQuestions[2].options[2  ].text)
+    displayQuestion(quizQuestions[Math.floor(Math.random() * 16)])
 });
 
  const handleOptionSelection = () => {
@@ -42,6 +41,7 @@ startQuizBtn.addEventListener("click", () => {
     optionsArray.forEach(option => {
       option.disabled = true;
     });
+    
   }
   
   // Add event listeners to all quiz options to handle selection
@@ -55,6 +55,7 @@ nextQuestionBtn.addEventListener('click', function() {
     nextQuestionBtn.classList.add('animate-peace')
     nextQuestionBtn.disabled = true
     setTimeout(fadeAway, 200, nextQuestionBtn);
+    displayQuestion(quizQuestions[Math.floor(Math.random() * 16)])
   
     // Enable all options for the next question
     optionsArray.forEach(option => {
@@ -62,6 +63,8 @@ nextQuestionBtn.addEventListener('click', function() {
     });
   });
   
+
+  // WILL NEED TO WRITE A CHECK CORRECT ANSWER FUNCTION HERE
   // Event listener for the options
   optionsArray.forEach(option => {
     option.addEventListener('click', function() {
@@ -87,12 +90,18 @@ nextQuestionBtn.addEventListener('click', function() {
     });
   });
 
+    const shuffleOptions = (questionOptions) => {
+      let shuffled = answerOptions.sort((a, b) => 0.5 - Math.random())
+    }
+    
+    
   const displayQuestion = (question) =>  {
     // Set the question text
-    questionh1.textContent = question.questionText;
-    optionsArray.forEach((option, index) => {
-
-    })
+    questionh1.innerHTML = question.questionText;
+    optionsArray.forEach((el, i) => {
+        el.innerText = question.options[i].text 
+        console.log(el.innerHTML)
+    })    
     console.log(question)
   
     // Loop through the options and set the text for each button
@@ -101,6 +110,7 @@ nextQuestionBtn.addEventListener('click', function() {
     //   optionsArray[index].dataset.isCorrect = option.isCorrect;
     // });
   }
+
 
   const fadeAway = (btn) =>{
     btn.style.display = 'none';
