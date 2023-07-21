@@ -1,6 +1,10 @@
+import quizQuestions from "./data/questions.js";
+
+
 const landingPage = document.querySelector(".landing-page");
 const tipSection = document.querySelector('.centered-content')
 const quizContainer = document.getElementById("quiz-container");
+const questionh1 = document.querySelector('.question-text')
 const nextQuestionBtn = document.getElementById('next-question-btn');
 const optionOne = document.getElementById('option1')
 const optionTwo = document.getElementById('option2')
@@ -10,15 +14,15 @@ const options = document.querySelector('.quiz-option')
 const optionsArray = [optionOne, optionTwo, optionThree, optionFour]
 const startQuizBtn = document.getElementById("start-quiz-btn");
 
+
 document.addEventListener('keydown', function(event) {
     const key = event.key;
     const selectedOption = document.querySelector(`[data-key="${key}"]`);
         if (selectedOption) {
-          selectedOption.click(); // Trigger a click event on the selected option
+          selectedOption.click(); 
           console.log(selectedOption.value)
         }else if(key === 'Enter') {
             nextQuestionBtn.click()
-            console.log('vajdu karinu')
         }
   });
 
@@ -27,12 +31,13 @@ startQuizBtn.addEventListener("click", () => {
     // Hide the landing page and show the quiz container
     landingPage.style.display = "none"; tipSection.style.display = 'none';
     quizContainer.style.display = "block";
+    // displayQuestion(quizQuestions[Math.floor(Math.random() * 16)])
+    console.log(quizQuestions[2].options[2  ].text)
 });
 
  const handleOptionSelection = () => {
     // Show the "Next Question" button when an option is selected
     nextQuestionBtn.style.display = 'block';
-    
     // Disable all options once an option is selected (optional)
     optionsArray.forEach(option => {
       option.disabled = true;
@@ -49,7 +54,7 @@ nextQuestionBtn.addEventListener('click', function() {
     // Hide the "Next Question" button again for the next question
     nextQuestionBtn.classList.add('animate-peace')
     nextQuestionBtn.disabled = true
-    setTimeout(fadeAway, 305, nextQuestionBtn);
+    setTimeout(fadeAway, 200, nextQuestionBtn);
   
     // Enable all options for the next question
     optionsArray.forEach(option => {
@@ -81,6 +86,21 @@ nextQuestionBtn.addEventListener('click', function() {
       });
     });
   });
+
+  const displayQuestion = (question) =>  {
+    // Set the question text
+    questionh1.textContent = question.questionText;
+    optionsArray.forEach((option, index) => {
+
+    })
+    console.log(question)
+  
+    // Loop through the options and set the text for each button
+    // question.options.forEach((option, index) => {
+    //   optionsArray[index].textContent = option.text;
+    //   optionsArray[index].dataset.isCorrect = option.isCorrect;
+    // });
+  }
 
   const fadeAway = (btn) =>{
     btn.style.display = 'none';

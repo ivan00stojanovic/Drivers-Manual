@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
-  --clr-blue-500: #007bff;
+  --clr-blue-500: #0084f0;
+  --clr-blue-500-darker: #00f0e4;
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-700: hsl(213, 19%, 18%);
 }
@@ -78,7 +79,7 @@ button#submit-btn:hover {
   }
 
   .centered-content span {
-    color: var(--clr-blue-500);
+    color: var(--clr-blue-500-darker);
    }   
 
    @keyframes tip {
@@ -230,7 +231,7 @@ button#submit-btn:hover {
 
     .animate-peace {
         /* Apply the animation styles to the button */
-        animation: peace 300ms ease-out;
+        animation: peace 200ms ease-out;
         display: none;
     }
 
