@@ -64,6 +64,7 @@ nextQuestionBtn.addEventListener('click', function() {
   });
   
 
+  WILL NEED TO WRITE A CHECK CORRECT ANSWER FUNCTION HERE
   // WILL NEED TO WRITE A CHECK CORRECT ANSWER FUNCTION HERE
   // Event listener for the options
   optionsArray.forEach(option => {
