@@ -10,7 +10,7 @@ const optionOne = document.getElementById('option1')
 const optionTwo = document.getElementById('option2')
 const optionThree = document.getElementById('option3')
 const optionFour = document.getElementById('option4')
-// const options = document.querySelector('.quiz-option')
+const options = document.querySelector('.quiz-option')
 const optionsArray = [optionOne, optionTwo, optionThree, optionFour]
 const startQuizBtn = document.getElementById("start-quiz-btn");
 
@@ -64,7 +64,7 @@ nextQuestionBtn.addEventListener('click', function() {
   });
   
 
-  WILL NEED TO WRITE A CHECK CORRECT ANSWER FUNCTION HERE
+
   // WILL NEED TO WRITE A CHECK CORRECT ANSWER FUNCTION HERE
   // Event listener for the options
   optionsArray.forEach(option => {
@@ -72,6 +72,10 @@ nextQuestionBtn.addEventListener('click', function() {
       // You can add code to handle the user's selection here.
       // For example, update the UI to show if the selection is correct or not.
       // Show the "Next Question" button after the user clicks an option
+      if(option.isCorrect){
+        console.log('Generale moj')
+        option.style.backgroundColor = 'red'
+      }
       console.log('gggffd')
       nextQuestionBtn.style.display = 'block';
     //   option.disabled = true
@@ -91,26 +95,35 @@ nextQuestionBtn.addEventListener('click', function() {
     });
   });
 
+  
+
     const shuffleOptions = (questionOptions) => {
       let shuffled = answerOptions.sort((a, b) => 0.5 - Math.random())
     }
+
+
     
-    
+
   const displayQuestion = (question) =>  {
     // Set the question text
+    console.log(optionsArray)
     questionh1.innerHTML = question.questionText;
     optionsArray.forEach((el, i) => {
         el.innerText = question.options[i].text 
-        console.log(el.innerHTML)
+        console.log(el.innerText)
     })    
-    console.log(question)
+        const rightChoice = optionsArray.find(options => options.isCorrect)
   
+
+    console.log(question)
+
+  }
     // Loop through the options and set the text for each button
     // question.options.forEach((option, index) => {
     //   optionsArray[index].textContent = option.text;
     //   optionsArray[index].dataset.isCorrect = option.isCorrect;
     // });
-  }
+  
 
 
   const fadeAway = (btn) =>{
