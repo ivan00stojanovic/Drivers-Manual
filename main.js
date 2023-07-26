@@ -67,33 +67,33 @@ nextQuestionBtn.addEventListener('click', function() {
 
   // WILL NEED TO WRITE A CHECK CORRECT ANSWER FUNCTION HERE
   // Event listener for the options
-  optionsArray.forEach(option => {
-    option.addEventListener('click', function() {
-      // You can add code to handle the user's selection here.
-      // For example, update the UI to show if the selection is correct or not.
-      // Show the "Next Question" button after the user clicks an option
-      if(option.isCorrect){
-        console.log('Generale moj')
-        option.style.backgroundColor = 'red'
-      }
-      console.log('gggffd')
-      nextQuestionBtn.style.display = 'block';
-    //   option.disabled = true
-      // Update the score based on the user's answer (example)
-    // const isCorrectAnswer = 5/* Your logic to determine if the answer is correct */;
-    // if (isCorrectAnswer) {
-    //   score += 1;
-    // }
+  // optionsArray.forEach(option, index => {
+  //   option.addEventListener('click', function() {
+  //     // You can add code to handle the user's selection here.
+  //     // For example, update the UI to show if the selection is correct or not.
+  //     // Show the "Next Question" button after the user clicks an option
+  //     if (index === correctAnswerIndex) {
+  //       option.classList.add('correct-option'); // Apply the green animation to the correct option
+  //       console.log('Hell Yeah');
+  //   }
+      
+  //     nextQuestionBtn.style.display = 'block';
+  //   //   option.disabled = true
+  //     // Update the score based on the user's answer (example)
+  //   // const isCorrectAnswer = 5/* Your logic to determine if the answer is correct */;
+  //   // if (isCorrectAnswer) {
+  //   //   score += 1;
+  //   // }
     
-    // Update the score display
-    // scoreDisplay.textContent = `Score: ${score}`
+  //   // Update the score display
+  //   // scoreDisplay.textContent = `Score: ${score}`
   
-      // Disable all options to prevent further clicks until the user clicks "Next Question"
-      optionsArray.forEach(option => {
-        option.disabled = true;
-      });
-    });
-  });
+  //     // Disable all options to prevent further clicks until the user clicks "Next Question"
+  //     optionsArray.forEach(option => {
+  //       option.disabled = true;
+  //     });
+  //   });
+  // });
 
   
 
@@ -104,20 +104,44 @@ nextQuestionBtn.addEventListener('click', function() {
 
     
 
-  const displayQuestion = (question) =>  {
+   // Add the correctAnswerIndex variable
+let correctAnswerIndex;
+
+const displayQuestion = (question) =>  {
     // Set the question text
-    console.log(optionsArray)
     questionh1.innerHTML = question.questionText;
     optionsArray.forEach((el, i) => {
-        el.innerText = question.options[i].text 
-        console.log(el.innerText)
-    })    
-        const rightChoice = optionsArray.find(options => options.isCorrect)
-  
+        el.innerText = question.options[i].text;
+        el.classList.remove('correct-option'); // Remove the class from all options
+        el.classList.remove('wrong-option');
+        if (question.options[i].isCorrect) {
+            correctAnswerIndex = i; // Store the index of the correct answer
+        }
+    });
+    console.log(question);
+}
 
-    console.log(question)
+// Add the click event listener to each option
+optionsArray.forEach((option, index) => {
+    option.addEventListener('click', function() {
+        // Check if the clicked option is correct
+        if (index === correctAnswerIndex) {
+            option.classList.add('correct-option'); // Apply the green animation to the correct option
+            console.log('Hell Yeah');
+        }else{
+          option.classList.add('wrong-option')
+          console.log('What is love')
+        }
+        nextQuestionBtn.style.display = 'block';
+        // Disable all options to prevent further clicks until the user clicks "Next Question"
+        optionsArray.forEach(option => {
+            option.disabled = true;
+        });
+    });
+});
 
-  }
+    
+    
     // Loop through the options and set the text for each button
     // question.options.forEach((option, index) => {
     //   optionsArray[index].textContent = option.text;
