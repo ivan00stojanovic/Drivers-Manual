@@ -97,8 +97,9 @@ nextQuestionBtn.addEventListener('click', function() {
 
   
 
-    const shuffleOptions = (questionOptions) => {
-      let shuffled = answerOptions.sort((a, b) => 0.5 - Math.random())
+    const shuffleOptions = (answerOptions) => {
+       answerOptions.sort((a, b) => 0.5 - Math.random())
+      
     }
 
 
@@ -111,12 +112,14 @@ const displayQuestion = (question) =>  {
     // Set the question text
     questionh1.innerHTML = question.questionText;
     optionsArray.forEach((el, i) => {
-        el.innerText = question.options[i].text;
+      el.innerText = question.options[i].text;
         el.classList.remove('correct-option'); // Remove the class from all options
         el.classList.remove('wrong-option');
         if (question.options[i].isCorrect) {
             correctAnswerIndex = i; // Store the index of the correct answer
         }
+        //  shuffleOptions(optionsArray)
+        
     });
     console.log(question);
 }
@@ -131,6 +134,8 @@ optionsArray.forEach((option, index) => {
         }else{
           option.classList.add('wrong-option')
           console.log('What is love')
+          const correctOption = optionsArray[correctAnswerIndex];
+          correctOption.classList.add('correct-option');
         }
         nextQuestionBtn.style.display = 'block';
         // Disable all options to prevent further clicks until the user clicks "Next Question"
