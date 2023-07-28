@@ -163,4 +163,5 @@ const quizQuestions = [
    
   ];
 
+  //Client side js export syntax
   export default quizQuestions

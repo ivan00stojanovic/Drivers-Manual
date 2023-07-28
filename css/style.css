@@ -145,8 +145,6 @@ button#submit-btn:hover {
     margin-bottom: 15px;
 }
 
-/* Styling for the options grid */
-/* Styling for the options grid */
 .options-grid {
     list-style: none;
     padding: 20px 0;
@@ -209,10 +207,6 @@ button#submit-btn:hover {
   transform: scale(0.95);
 }
 
- /* #next-question-btn {
-    margin-left: 55rem;
-} */
-
 .next-question-btn-wrapper{
     display: flex;
     flex-direction: column;
@@ -227,8 +221,6 @@ button#submit-btn:hover {
     100%{
         opacity: 0;
     }
-
-    
 }
 
     .animate-peace {
@@ -296,9 +288,9 @@ button#submit-btn:hover {
 
 .next-question-btn-wrapper > #next-question-btn:hover{
     cursor: pointer;
-  color: var(--clr-neutral-100);
-  box-shadow: inset 11.6rem 0 0 0 var(--clr-blue-500);
-  transform: scale(1.15);
+    color: var(--clr-neutral-100);
+    box-shadow: inset 11.6rem 0 0 0 var(--clr-blue-500);
+    transform: scale(1.15);
 }
 
 #score-display {
