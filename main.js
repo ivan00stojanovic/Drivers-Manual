@@ -95,34 +95,37 @@ nextQuestionBtn.addEventListener('click', function() {
   // });
 
   
+let correctAnswerIndex
 
-    const shuffleOptions = (answerOptions) => {
-       answerOptions.sort((a, b) => 0.5 - Math.random())
-      
-    }
-
-
-    
-
-   // Add the correctAnswerIndex variable
-let correctAnswerIndex;
-
-const displayQuestion = (question) =>  {
+  const displayQuestion = (question) => {
     // Set the question text
     questionh1.innerHTML = question.questionText;
+  
+    // Shuffle the options for this question
+    const shuffledOptions = shuffleOptions([...question.options]);
+  
     optionsArray.forEach((el, i) => {
-      el.innerText = ('Option ' + (i + 1)) + ' - ' + question.options[i].text;
-      console.log(el.innerText)
-        el.classList.remove('correct-option'); // Remove the class from all options
-        el.classList.remove('wrong-option');
-        if (question.options[i].isCorrect) {
-            correctAnswerIndex = i; // Store the index of the correct answer
-        }
-        //  shuffleOptions(optionsArray)
-        
+      el.innerText = shuffledOptions[i].text;
+      el.classList.remove('correct-option');
+      el.classList.remove('wrong-option');
+  
+      if (shuffledOptions[i].isCorrect) {
+        correctAnswerIndex = i;
+      }
     });
-    console.log(question);
-}
+  };
+  
+  // Function to shuffle the options array for each question independently
+  const shuffleOptions = (answerOptions) => {
+    return answerOptions.sort(() => 0.5 - Math.random());
+  };
+
+  const updateScore = () => {
+    let correctAnswers = 0
+    let totalAnswers = 0
+      
+  }
+  
 
 // Add the click event listener to each option
 optionsArray.forEach((option, index) => {
@@ -144,6 +147,8 @@ optionsArray.forEach((option, index) => {
         });
     });
 });
+
+
 
     
     
