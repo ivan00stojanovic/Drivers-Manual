@@ -74,12 +74,13 @@ button#submit-btn:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; /* Set the height of the container to vertically center the content */
+    height: 10rem; /* Set the height of the container to vertically center the content */
     margin-top: 4.5rem;
   }
 
   .centered-content span {
     color: var(--clr-blue-500-darker);
+    /* padding-bottom: 10rem */
    }   
 
    @keyframes tip {
@@ -99,9 +100,8 @@ button#submit-btn:hover {
         margin-left: 10rem;
         animation: tip 3500ms ease-out;
         animation-delay: 1500ms;
-        animation-iteration-count: 10;
+        animation-iteration-count: 15;
     }
-
 
   /* Style the h1 inside the centered-content div */
   .centered-content h1 {

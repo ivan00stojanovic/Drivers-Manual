@@ -41,7 +41,6 @@ startQuizBtn.addEventListener("click", () => {
     optionsArray.forEach(option => {
       option.disabled = true;
     });
-    
   }
   
   // Add event listeners to all quiz options to handle selection
@@ -112,7 +111,8 @@ const displayQuestion = (question) =>  {
     // Set the question text
     questionh1.innerHTML = question.questionText;
     optionsArray.forEach((el, i) => {
-      el.innerText = question.options[i].text;
+      el.innerText = ('Option ' + (i + 1)) + ' - ' + question.options[i].text;
+      console.log(el.innerText)
         el.classList.remove('correct-option'); // Remove the class from all options
         el.classList.remove('wrong-option');
         if (question.options[i].isCorrect) {
