@@ -13,6 +13,7 @@ const optionFour = document.getElementById('option4')
 const options = document.querySelector('.quiz-option')
 const optionsArray = [optionOne, optionTwo, optionThree, optionFour]
 const startQuizBtn = document.getElementById("start-quiz-btn");
+let score = document.getElementById('score-display')
 
 
 document.addEventListener('keydown', function(event) {
@@ -105,7 +106,7 @@ let correctAnswerIndex
     const shuffledOptions = shuffleOptions([...question.options]);
   
     optionsArray.forEach((el, i) => {
-      el.innerText = shuffledOptions[i].text;
+      el.innerText = 'Option ' + (i + 1) + ' - ' + shuffledOptions[i].text;
       el.classList.remove('correct-option');
       el.classList.remove('wrong-option');
   
@@ -120,18 +121,20 @@ let correctAnswerIndex
     return answerOptions.sort(() => 0.5 - Math.random());
   };
 
-  const updateScore = () => {
-    let correctAnswers = 0
-    let totalAnswers = 0
-      
-  }
+
+  //Updating the score after each click, will need doing
+  let correctAnswers = 0
+  let questionCounter = 0
   
 
 // Add the click event listener to each option
 optionsArray.forEach((option, index) => {
     option.addEventListener('click', function() {
+      //Increment the question counter
+      questionCounter++
         // Check if the clicked option is correct
         if (index === correctAnswerIndex) {
+          correctAnswers++
             option.classList.add('correct-option'); // Apply the green animation to the correct option
             console.log('Hell Yeah');
         }else{
@@ -145,6 +148,7 @@ optionsArray.forEach((option, index) => {
         optionsArray.forEach(option => {
             option.disabled = true;
         });
+          score.innerText = `${correctAnswers} / ${questionCounter}`
     });
 });
 
