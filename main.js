@@ -32,7 +32,7 @@ startQuizBtn.addEventListener("click", () => {
     // Hide the landing page and show the quiz container
     landingPage.style.display = "none"; tipSection.style.display = 'none';
     quizContainer.style.display = "block";
-    displayQuestion(quizQuestions[Math.floor(Math.random() * 16)])
+    displayQuestion(quizQuestions[Math.floor(Math.random() * quizQuestions.length)])
 });
 
  const handleOptionSelection = () => {
@@ -55,7 +55,7 @@ nextQuestionBtn.addEventListener('click', function() {
     nextQuestionBtn.classList.add('animate-peace')
     nextQuestionBtn.disabled = true
     setTimeout(fadeAway, 200, nextQuestionBtn);
-    displayQuestion(quizQuestions[Math.floor(Math.random() * 16)])
+    displayQuestion(quizQuestions[Math.floor(Math.random() * quizQuestions.length)])
   
     // Enable all options for the next question
     optionsArray.forEach(option => {

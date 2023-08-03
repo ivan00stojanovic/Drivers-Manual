@@ -121,7 +121,7 @@ const quizQuestions = [
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
       {
-        questionText: ". IF YOU ARE UNDER AGE 21 AND ARE CONVICTED OF DRIVING UNDER THE INFLUENCE OF ALCOHOL, YOU WILL RECEIVE A ____ LICENSE SUSPENSION FOR A FIRST OFFENSE.",
+        questionText: " IF YOU ARE UNDER AGE 21 AND ARE CONVICTED OF DRIVING UNDER THE INFLUENCE OF ALCOHOL, YOU WILL RECEIVE A ____ LICENSE SUSPENSION FOR A FIRST OFFENSE.",
         options: [
           { text: "60-Day", isCorrect: false },
           { text: "1-Year", isCorrect: true },
