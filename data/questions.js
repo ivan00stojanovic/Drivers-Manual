@@ -372,16 +372,406 @@ const quizQuestions = [
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
       {
-        questionText: "AFTER A TRAIN HAS PASSED, YOU SHOULD:",
+        questionText: "IF YOU NEED TO SLOW DOWN OR STOP WHEN OTHER DRIVERS MAY NOT EXPECT IT, YOU SHOULD:",
         options: [
-          { text: "Check again for approaching trains and proceed with caution", isCorrect: false },
-          { text: "Wait for a green light", isCorrect: true },
-          { text: "Proceed across the tracks", isCorrect: false },
-          { text: "Blow horn and proceed", isCorrect: false },
+          { text: "Quickly tap your break pedal a few times", isCorrect: false },
+          { text: "Use you emergency break", isCorrect: true },
+          { text: "Look over your shoulder for traffic in your blind spot", isCorrect: false },
+          { text: "Get ready to blow your horn", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
-      
+      {
+        questionText: "WHEN YOU ARE PLANNING TO MAKE A TURN, YOU SHOULD ACTIVATE YOUR TURN SIGNALS:",
+        options: [
+          { text: "Only if there are other drivers following you", isCorrect: false },
+          { text: "Just as the front of your car reaches the intersection", isCorrect: true },
+          { text: "3 to 4 seconds before you reach the intersection", isCorrect: false },
+          { text: "2 car lengths before reaching the intersection", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "BEFORE PASSING ANOTHER VEHICLE YOU SHOULD:",
+        options: [
+          { text: "flash your headlights to alert the driver", isCorrect: false },
+          { text: "Turn on your four-way flashers to warn the driver", isCorrect: true },
+          { text: "Give the proper turn signal to show you are changing lanes", isCorrect: false },
+          { text: "Sound your horn to get the drivers attention", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "YOUR BLIND SPOT IS THE AREA OF THE ROAD:",
+        options: [
+          { text: "You cannot see without moving your head", isCorrect: false },
+          { text: "Directly behind the vehicle", isCorrect: true },
+          { text: "You see in your rearview mirror", isCorrect: false },
+          { text: "You see in your side mirror", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "BEFORE PASSING ANOTHER VEHICLE, YOU SHOULD SIGNAL:",
+        options: [
+          { text: "Just before changing lanes", isCorrect: false },
+          { text: "At any time", isCorrect: true },
+          { text: "After changing lanes", isCorrect: false },
+          { text: "Early enough so others know your plans", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "BEFORE CHANGING LANES ON A MULTI-LANE HIGHWAY YOU SHOULD:",
+        options: [
+          { text: "Sound your horn", isCorrect: false },
+          { text: "Turn on your headlights", isCorrect: true },
+          { text: "Reduce your speed", isCorrect: false },
+          { text: "Check your mirrors and blind spots", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN YOU PARK ON THE ROADWAY, YOU SHOULD:",
+        options: [
+          { text: "Use your four-way flashers", isCorrect: false },
+          { text: "Park at an angle", isCorrect: true },
+          { text: "Keep your turn signal on", isCorrect: false },
+          { text: "Turn your lights on", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "BEFORE BACKING UP, YOU SHOULD:",
+        options: [
+          { text: "Rely on your mirrors to see if it is clear to proceed", isCorrect: false },
+          { text: "Flash your lights", isCorrect: true },
+          { text: "Open your door to see if it is clear to proceed", isCorrect: false },
+          { text: "Turn your head and look through the rear window", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "TO HELP AVOID CRASHES, YOU SHOULD:",
+        options: [
+          { text: "Communicate with other drivers on the road", isCorrect: false },
+          { text: "Ignore other drivers on the road", isCorrect: true },
+          { text: "Drive on side streets and back roads", isCorrect: false },
+          { text: "Avoid driving during rush hour", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "THE DRIVER IS:",
+        options: [
+          { text: "Slowing or stopping", isCorrect: false },
+          { text: "Turning left", isCorrect: true },
+          { text: "Turning right", isCorrect: false },
+          { text: "Opening their door", isCorrect: false },
+        ],
+        imageUrl: ""FALI SLIKA, // Optional image URL
+      },
+      {
+        questionText: "IF YOUR TURN SIGNALS FAIL, YOU SHOULD USE ___ TO INDICATE YOU ARE TURNING",
+        options: [
+          { text: "Your horn", isCorrect: false },
+          { text: "Your headlights", isCorrect: true },
+          { text: "Sound your horn to warn others", isCorrect: false },
+          { text: "Use your four-way flashers", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN TRAVELLING BELOW 40 MILES AN HOUR ON A LIMITED ACCESS HIGHWAY, YOU SHOULD:",
+        options: [
+          { text: "Drive on the shoulder", isCorrect: false },
+          { text: "Use your high beams", isCorrect: true },
+          { text: "Sound your horn to warn others", isCorrect: false },
+          { text: "Use your four-way flashers", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "YOU SHOULD HONK YOUR HORN WHEN YOU:",
+        options: [
+          { text: "Are travelling through an intersection", isCorrect: false },
+          { text: "Are passing a bicylist", isCorrect: true },
+          { text: "See a child who is about to run into the street", isCorrect: false },
+          { text: "Are parallel parking", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "YOU MUST USE YOUR HEADLIGHTS WHEN OTHER VEHICLES ARE NOT VISIBLE FROM ___ FEET AWAY:",
+        options: [
+          { text: "1000", isCorrect: false },
+          { text: "1500", isCorrect: true },
+          { text: "1800", isCorrect: false },
+          { text: "1200", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF A VEHICLE USING HIGH BEAMS COMES TOWARDS YOU, YOU SHOULD LOOK TOWARDS ___ OF THE ROAD:",
+        options: [
+          { text: "Either side", isCorrect: false },
+          { text: "The center", isCorrect: true },
+          { text: "The right", isCorrect: false },
+          { text: "The left", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF A VEHICLE USING HIGH BEAMS COMES TOWARD YOU, YOU SHOULD:",
+        options: [
+          { text: "Turn on your high beams", isCorrect: false },
+          { text: "Turn off your headlights", isCorrect: true },
+          { text: "Sound your horn", isCorrect: false },
+          { text: "Flash your high beams", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "YOU MAY HONK YOUR HORN WHEN YOU:",
+        options: [
+          { text: "Have to stop quickly", isCorrect: false },
+          { text: "Are passing another car", isCorrect: true },
+          { text: "Have lost control of your car", isCorrect: false },
+          { text: "Are passing a bicylist", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "YOUR BRAKE LIGHTS TELL OTHER DRIVERS THAT YOU:",
+        options: [
+          { text: "Are making a turn", isCorrect: false },
+          { text: "Have an emergency break on", isCorrect: true },
+          { text: "Are changing lanes", isCorrect: false },
+          { text: "Are slowing down or stopping", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "BEFORE TURNING YOU SHOULD:",
+        options: [
+          { text: "Use your signal", isCorrect: false },
+          { text: "Turn the wheel", isCorrect: true },
+          { text: "Increase your speed", isCorrect: false },
+          { text: "Change lanes", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "THE DRIVER IS:",
+        options: [
+          { text: "Turning left", isCorrect: false },
+          { text: "Slowing", isCorrect: true },
+          { text: "Stopping", isCorrect: false },
+          { text: "Turning right", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg" FALI SLIKA, // Optional image URL
+      },
+      {
+        questionText: "THE DRIVER IS:",
+        options: [
+          { text: "Turning left", isCorrect: false },
+          { text: "Stopping", isCorrect: true },
+          { text: "Slowing", isCorrect: false },
+          { text: "Turning right", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg" FALI SLIKA, // Optional image URL
+      },
+      {
+        questionText: "IF ANOTHER CAR IS IN DANGER OF HITTING YOU, YOU SHOULD:",
+        options: [
+          { text: "Sound your horn", isCorrect: false },
+          { text: "Wave your arms", isCorrect: true },
+          { text: "Use your emergency lights", isCorrect: false },
+          { text: "Flash your headlights", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF YOU BEGIN TO FEEL TIRED WHILE DRIVING, THE BEST THING TO DO IS:",
+        options: [
+          { text: "Get some coffee", isCorrect: false },
+          { text: "Open your window", isCorrect: true },
+          { text: "Stop driving", isCorrect: false },
+          { text: "Turn on the radio", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "THE EFFECT THAT LACK OF SLEEP HAS ON YOUR SAFE DRIVING ABILITY IS THE SAME AS:",
+        options: [
+          { text: "The same that alcohol has", isCorrect: false },
+          { text: "The effect that amphatemanes have", isCorrect: true },
+          { text: "The effect that anger has", isCorrect: false },
+          { text: "The effect that driving with teenagers has", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "TEENAGERS SHOULD TRY TO GET AT LEAST ___ OF SLEEP EACH NIGHT TO AVOID THE RISK OF DROWSY DRIVING CRASHES.",
+        options: [
+          { text: "7 hours", isCorrect: false },
+          { text: "6 hours", isCorrect: true },
+          { text: "8 hours", isCorrect: false },
+          { text: "9 hours", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF ANOTHER DRIVERS CUTS YOU OFF IN TRAFFIC, YOU SHOULD:",
+        options: [
+          { text: "Pull next to the driver and yell at him or her", isCorrect: false },
+          { text: "Ignore the other driver", isCorrect: true },
+          { text: "Flash your high beams at the driver", isCorrect: false },
+          { text: "Get back at the other driver by cutting him or her off", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF SOMEONE IS DRIVING AGGRESSIVELY BEHIND YOU, YOU SHOULD:",
+        options: [
+          { text: "Try to get out of the agressive driver's way", isCorrect: false },
+          { text: "Stare at the driver as they are passing you", isCorrect: true },
+          { text: "Speed up as they are passing you", isCorrect: false },
+          { text: "Block the passing lane", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "FOR AN AVERAGE PERSON, HOW MANY MINUTES DOES THE BODY NEED TO PROCESS THE ALCOHOL IN ONE DRINK?",
+        options: [
+          { text: "15", isCorrect: false },
+          { text: "60", isCorrect: true },
+          { text: "90", isCorrect: false },
+          { text: "30", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "___ LIMIT(S) YOUR CONCENTRATION, PERCEPTION, JUDGMENT AND MEMORY.",
+        options: [
+          { text: "Only a blood alcohol level greater than the legal limit", isCorrect: false },
+          { text: "Alcohol does not", isCorrect: true },
+          { text: "Even the smallest amount of alcohol", isCorrect: false },
+          { text: "Only a blood alcohol level greater than .05", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },  
+      {
+        questionText: "TAKING DRUGS ALONG WITH ALCOHOL:",
+        options: [
+          { text: "Increases the risk of a crash", isCorrect: false },
+          { text: "Is no more dangerous than alcohol by itself", isCorrect: true },
+          { text: "Lessens the effect of alcohol on your ability to drive", isCorrect: false },
+          { text: "Has no effect on your general driving ability", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "AS ALCOHOL BUILDS UP IN YOUR BLOOD, IT:",
+        options: [
+          { text: "Slows down your reactions", isCorrect: false },
+          { text: "Makes you feel less confident", isCorrect: true },
+          { text: "Begins to metabolize itself more quickly", isCorrect: false },
+          { text: "Decreases your driving errors", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "AS YOUR BLOOD ALCOHOL LEVEL IS .04, YOU:",
+        options: [
+          { text: "Are 2-7 times more likely to have a crash than a person who has not consumed any", isCorrect: false },
+          { text: "Are above the legal blood alcohol limit but fine to drive", isCorrect: true },
+          { text: "Can be very sure that you will drive safely", isCorrect: false },
+          { text: "Should drink plenty of coffee before getting behind the wheel of your car", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN YOU HEAR A FIRE ENGINE SIREN, YOU MUST:",
+        options: [
+          { text: "Slow down until it passes you", isCorrect: false },
+          { text: "Drive with you flashers on", isCorrect: true },
+          { text: "Pull over to the side of the road and stop", isCorrect: false },
+          { text: "Speed up and take the nearest exit", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF YOU HAVE A TIRE BLOWOUT, YOU SHOULD:",
+        options: [
+          { text: "Allow the steering wheel to move freely", isCorrect: false },
+          { text: "Let the car slow to a stop", isCorrect: true },
+          { text: "Continue driving until you reach a garage", isCorrect: false },
+          { text: "Brake hard and stop the car immediately", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF YOU CAR BREAKS DOWN ON A HIGHWAY, YOU SHOULD:",
+        options: [
+          { text: "Sit in you car and wait for help", isCorrect: false },
+          { text: "Use your four-way flashers to warn other drivers", isCorrect: true },
+          { text: "Sound your horn at passing motorists", isCorrect: false },
+          { text: "Flash your headlights at oncoming traffic", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN YOU SEE AN EMERGENCY VEHICLE WITH FLASHING LIGHTS, YOU MUST:",
+        options: [
+          { text: "Slow down and keep moving in your lane", isCorrect: false },
+          { text: "Keep driving in your lane", isCorrect: true },
+          { text: "Pull to the curb and stop", isCorrect: false },
+          { text: "Stop exactly where you are", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN DRIVING ON A ONE WAY STREET AND AN EMERGENCY VEHICLE WITH FLASHING VEHICLES IS BEHIND YOUR CAR, YOU SHOULD:",
+        options: [
+          { text: " Drive with your flashers on", isCorrect: false },
+          { text: "Drive toward the nearest road side and stop", isCorrect: true },
+          { text: "Speed up and take the nearest exit", isCorrect: false },
+          { text: "Slow down until the vehicle passes you", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "AFTER AN EMERGENCY VEHICLE PASSES YOU WITH ITS SIREN ON, YOU SHOULD:",
+        options: [
+          { text: "Drive closely to the police car", isCorrect: false },
+          { text: "Drive as fast as the police car", isCorrect: false },
+          { text: "Avoid driving closer than 500 feet behind the emergency vehicle", isCorrect: true },
+          { text: "Drive near the curb very slowly", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "CRASHES IN WORK ZONES ARE MOST COMMONLY THE RESULT OF:",
+        options: [
+          { text: "Tire blow-outs", isCorrect: false },
+          { text: "Hydroplaning because of water sprayed on the roadway", isCorrect: true },
+          { text: "Loss of steering control after driving over wet paint", isCorrect: false },
+          { text: "Carelessness and speeding", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN DRIVING THROUGH A WORK ZONE, IT IS A GOOD SAFETY PRACTICE TO:",
+        options: [
+          { text: "Drive close to the vehicle in front of you to keep traffic flowing freely", isCorrect: false },
+          { text: "Shorten your usual following distance - by about half", isCorrect: true },
+          { text: "Turn on your cruise control", isCorrect: false },
+          { text: "Lengthen your usual following distance- by double", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+
    
 
   ];
