@@ -515,8 +515,8 @@ const quizQuestions = [
         questionText: "IF A VEHICLE USING HIGH BEAMS COMES TOWARDS YOU, YOU SHOULD LOOK TOWARDS ___ OF THE ROAD:",
         options: [
           { text: "Either side", isCorrect: false },
-          { text: "The center", isCorrect: true },
-          { text: "The right", isCorrect: false },
+          { text: "The center", isCorrect: false },
+          { text: "The right", isCorrect: true},
           { text: "The left", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -525,9 +525,9 @@ const quizQuestions = [
         questionText: "IF A VEHICLE USING HIGH BEAMS COMES TOWARD YOU, YOU SHOULD:",
         options: [
           { text: "Turn on your high beams", isCorrect: false },
-          { text: "Turn off your headlights", isCorrect: true },
-          { text: "Sound your horn", isCorrect: false },
-          { text: "Flash your high beams", isCorrect: false },
+          { text: "Turn off your headlights", isCorrect: false },
+          { text: "Sound your horn", isCorrect: false},
+          { text: "Flash your high beams", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -535,8 +535,8 @@ const quizQuestions = [
         questionText: "YOU MAY HONK YOUR HORN WHEN YOU:",
         options: [
           { text: "Have to stop quickly", isCorrect: false },
-          { text: "Are passing another car", isCorrect: true },
-          { text: "Have lost control of your car", isCorrect: false },
+          { text: "Are passing another car", isCorrect: false},
+          { text: "Have lost control of your car", isCorrect: true },
           { text: "Are passing a bicylist", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -545,17 +545,17 @@ const quizQuestions = [
         questionText: "YOUR BRAKE LIGHTS TELL OTHER DRIVERS THAT YOU:",
         options: [
           { text: "Are making a turn", isCorrect: false },
-          { text: "Have an emergency break on", isCorrect: true },
+          { text: "Have an emergency break on", isCorrect: false},
           { text: "Are changing lanes", isCorrect: false },
-          { text: "Are slowing down or stopping", isCorrect: false },
+          { text: "Are slowing down or stopping", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
       {
         questionText: "BEFORE TURNING YOU SHOULD:",
         options: [
-          { text: "Use your signal", isCorrect: false },
-          { text: "Turn the wheel", isCorrect: true },
+          { text: "Use your signal", isCorrect: true },
+          { text: "Turn the wheel", isCorrect: false },
           { text: "Increase your speed", isCorrect: false },
           { text: "Change lanes", isCorrect: false },
         ],
@@ -565,17 +565,17 @@ const quizQuestions = [
         questionText: "THE DRIVER IS:",
         options: [
           { text: "Turning left", isCorrect: false },
-          { text: "Slowing", isCorrect: true },
+          { text: "Slowing", isCorrect: false},
           { text: "Stopping", isCorrect: false },
-          { text: "Turning right", isCorrect: false },
+          { text: "Turning right", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg" FALI SLIKA, // Optional image URL
       },
       {
         questionText: "THE DRIVER IS:",
         options: [
-          { text: "Turning left", isCorrect: false },
-          { text: "Stopping", isCorrect: true },
+          { text: "Turning left", isCorrect: true},
+          { text: "Stopping", isCorrect: false },
           { text: "Slowing", isCorrect: false },
           { text: "Turning right", isCorrect: false },
         ],
@@ -584,8 +584,8 @@ const quizQuestions = [
       {
         questionText: "IF ANOTHER CAR IS IN DANGER OF HITTING YOU, YOU SHOULD:",
         options: [
-          { text: "Sound your horn", isCorrect: false },
-          { text: "Wave your arms", isCorrect: true },
+          { text: "Sound your horn", isCorrect: true},
+          { text: "Wave your arms", isCorrect: false },
           { text: "Use your emergency lights", isCorrect: false },
           { text: "Flash your headlights", isCorrect: false },
         ],
@@ -595,8 +595,8 @@ const quizQuestions = [
         questionText: "IF YOU BEGIN TO FEEL TIRED WHILE DRIVING, THE BEST THING TO DO IS:",
         options: [
           { text: "Get some coffee", isCorrect: false },
-          { text: "Open your window", isCorrect: true },
-          { text: "Stop driving", isCorrect: false },
+          { text: "Open your window", isCorrect: false },
+          { text: "Stop driving", isCorrect: true},
           { text: "Turn on the radio", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -604,8 +604,8 @@ const quizQuestions = [
       {
         questionText: "THE EFFECT THAT LACK OF SLEEP HAS ON YOUR SAFE DRIVING ABILITY IS THE SAME AS:",
         options: [
-          { text: "The same that alcohol has", isCorrect: false },
-          { text: "The effect that amphatemanes have", isCorrect: true },
+          { text: "The same that alcohol has", isCorrect: true},
+          { text: "The effect that amphatemanes have", isCorrect: false },
           { text: "The effect that anger has", isCorrect: false },
           { text: "The effect that driving with teenagers has", isCorrect: false },
         ],
@@ -615,8 +615,8 @@ const quizQuestions = [
         questionText: "TEENAGERS SHOULD TRY TO GET AT LEAST ___ OF SLEEP EACH NIGHT TO AVOID THE RISK OF DROWSY DRIVING CRASHES.",
         options: [
           { text: "7 hours", isCorrect: false },
-          { text: "6 hours", isCorrect: true },
-          { text: "8 hours", isCorrect: false },
+          { text: "6 hours", isCorrect: false },
+          { text: "8 hours", isCorrect: true},
           { text: "9 hours", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -634,8 +634,8 @@ const quizQuestions = [
       {
         questionText: "IF SOMEONE IS DRIVING AGGRESSIVELY BEHIND YOU, YOU SHOULD:",
         options: [
-          { text: "Try to get out of the agressive driver's way", isCorrect: false },
-          { text: "Stare at the driver as they are passing you", isCorrect: true },
+          { text: "Try to get out of the agressive driver's way", isCorrect: true },
+          { text: "Stare at the driver as they are passing you", isCorrect: false },
           { text: "Speed up as they are passing you", isCorrect: false },
           { text: "Block the passing lane", isCorrect: false },
         ],
@@ -655,8 +655,8 @@ const quizQuestions = [
         questionText: "___ LIMIT(S) YOUR CONCENTRATION, PERCEPTION, JUDGMENT AND MEMORY.",
         options: [
           { text: "Only a blood alcohol level greater than the legal limit", isCorrect: false },
-          { text: "Alcohol does not", isCorrect: true },
-          { text: "Even the smallest amount of alcohol", isCorrect: false },
+          { text: "Alcohol does not", isCorrect: false},
+          { text: "Even the smallest amount of alcohol", isCorrect: true },
           { text: "Only a blood alcohol level greater than .05", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -664,8 +664,8 @@ const quizQuestions = [
       {
         questionText: "TAKING DRUGS ALONG WITH ALCOHOL:",
         options: [
-          { text: "Increases the risk of a crash", isCorrect: false },
-          { text: "Is no more dangerous than alcohol by itself", isCorrect: true },
+          { text: "Increases the risk of a crash", isCorrect: true },
+          { text: "Is no more dangerous than alcohol by itself", isCorrect: false },
           { text: "Lessens the effect of alcohol on your ability to drive", isCorrect: false },
           { text: "Has no effect on your general driving ability", isCorrect: false },
         ],
@@ -674,8 +674,8 @@ const quizQuestions = [
       {
         questionText: "AS ALCOHOL BUILDS UP IN YOUR BLOOD, IT:",
         options: [
-          { text: "Slows down your reactions", isCorrect: false },
-          { text: "Makes you feel less confident", isCorrect: true },
+          { text: "Slows down your reactions", isCorrect: true },
+          { text: "Makes you feel less confident", isCorrect: false},
           { text: "Begins to metabolize itself more quickly", isCorrect: false },
           { text: "Decreases your driving errors", isCorrect: false },
         ],
@@ -684,8 +684,8 @@ const quizQuestions = [
       {
         questionText: "AS YOUR BLOOD ALCOHOL LEVEL IS .04, YOU:",
         options: [
-          { text: "Are 2-7 times more likely to have a crash than a person who has not consumed any", isCorrect: false },
-          { text: "Are above the legal blood alcohol limit but fine to drive", isCorrect: true },
+          { text: "Are 2-7 times more likely to have a crash than a person who has not consumed any", isCorrect: true },
+          { text: "Are above the legal blood alcohol limit but fine to drive", isCorrect: false },
           { text: "Can be very sure that you will drive safely", isCorrect: false },
           { text: "Should drink plenty of coffee before getting behind the wheel of your car", isCorrect: false },
         ],
@@ -695,8 +695,8 @@ const quizQuestions = [
         questionText: "WHEN YOU HEAR A FIRE ENGINE SIREN, YOU MUST:",
         options: [
           { text: "Slow down until it passes you", isCorrect: false },
-          { text: "Drive with you flashers on", isCorrect: true },
-          { text: "Pull over to the side of the road and stop", isCorrect: false },
+          { text: "Drive with you flashers on", isCorrect: false},
+          { text: "Pull over to the side of the road and stop", isCorrect: true },
           { text: "Speed up and take the nearest exit", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -725,8 +725,8 @@ const quizQuestions = [
         questionText: "WHEN YOU SEE AN EMERGENCY VEHICLE WITH FLASHING LIGHTS, YOU MUST:",
         options: [
           { text: "Slow down and keep moving in your lane", isCorrect: false },
-          { text: "Keep driving in your lane", isCorrect: true },
-          { text: "Pull to the curb and stop", isCorrect: false },
+          { text: "Keep driving in your lane", isCorrect: false },
+          { text: "Pull to the curb and stop", isCorrect: true},
           { text: "Stop exactly where you are", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -755,9 +755,9 @@ const quizQuestions = [
         questionText: "CRASHES IN WORK ZONES ARE MOST COMMONLY THE RESULT OF:",
         options: [
           { text: "Tire blow-outs", isCorrect: false },
-          { text: "Hydroplaning because of water sprayed on the roadway", isCorrect: true },
+          { text: "Hydroplaning because of water sprayed on the roadway", isCorrect: false },
           { text: "Loss of steering control after driving over wet paint", isCorrect: false },
-          { text: "Carelessness and speeding", isCorrect: false },
+          { text: "Carelessness and speeding", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -765,12 +765,524 @@ const quizQuestions = [
         questionText: "WHEN DRIVING THROUGH A WORK ZONE, IT IS A GOOD SAFETY PRACTICE TO:",
         options: [
           { text: "Drive close to the vehicle in front of you to keep traffic flowing freely", isCorrect: false },
-          { text: "Shorten your usual following distance - by about half", isCorrect: true },
+          { text: "Shorten your usual following distance - by about half", isCorrect: false },
           { text: "Turn on your cruise control", isCorrect: false },
-          { text: "Lengthen your usual following distance- by double", isCorrect: false },
+          { text: "Lengthen your usual following distance- by double", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
+      {
+        questionText: "ON TWO-LANE, TWO-WAY  STREETS ON HIGHWAYS, YOU SHOULD START LEFT TURNS:",
+        options: [
+          { text: "Close to the center line", isCorrect: true },
+          { text: "Close to the outside line", isCorrect: false },
+          { text: "In the center of the lane", isCorrect: false },
+          { text: "Anywhere in the lane", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "TO TURN LEFT ON MULTI-LANE STREETS AND HIGHWAYS, YOU SHOULD START FROM:",
+        options: [
+          { text: "The middle of the intersection", isCorrect: false },
+          { text: "The right lane", isCorrect: false },
+          { text: "The left lane", isCorrect: true },
+          { text: "Any lane", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "ON A TWO-LANE ROAD, YOU MAY PASS ANOTHER VEHICLE ON THE RIGHT WHEN:",
+        options: [
+          { text: "Driving on a single entrance ramp", isCorrect: false },
+          { text: "The driver you are passing is travelling slower than the posted speed limit", isCorrect: false },
+          { text: "Never", isCorrect: false },
+          { text: "The driver you are passing is making a left turn", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "TO PASS A SLOWER-MOVING VEHICLE ON A TWO-LANE ROAD YOU MUST:",
+        options: [
+          { text: "Not cross the center line", isCorrect: false },
+          { text: "Flash your lights to oncoming traffic", isCorrect: false},
+          { text: "Use the shoulder", isCorrect: false },
+          { text: "Use the lane that belongs to oncoming traffic", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "THESE PAVEMENT MARKINGS TELL YOU THAT AT THE INTERSECTION AHEAD:",
+        options: [
+          { text: "Center lane traffic may go straight or turn left", isCorrect: true },
+          { text: "You can only turn right", isCorrect: false },
+          { text: "The center lane mergers into one lane", isCorrect: false },
+          { text: "Center lane traffic must turn left", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", FALI SLIKA // Optional image URL
+      },
+      {
+        questionText: "THE MOST IMPORTANT THING TO REMEMBER ABOUT SPEED MANAGMENT AND CURVES IS TO:",
+        options: [
+          { text: "Drive at the posted speed limit as you enter the curve, then slow down at the sharpest part of the curve", isCorrect: false },
+          { text: "Slow down before you enter the drive", isCorrect: true },
+          { text: "Accelerate gently before you enter the curve", isCorrect: false },
+          { text: "Drive at the posted speed limit of the roadway, before, throughout, and after the curve", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "DRIVERS ENTERING A ROUNDABOUT OR TRAFFIC CIRCLE:",
+        options: [
+          { text: "Must stop before entering", isCorrect: false },
+          { text: "Must yield to drivers in the roundabout or traffic circle", isCorrect: true },
+          { text: "Have the right of way if they arive first", isCorrect: false },
+          { text: "Have the right of way if there are two lanes", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "THE LAW GIVES ___ THE RIGHT OF WAY AT INTERESCTIONS.",
+        options: [
+          { text: "No one", isCorrect: true },
+          { text: "Drivers turning left", isCorrect: false },
+          { text: "Drivers going straight", isCorrect: false },
+          { text: "Drivers turning right", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "AT AN INTERSECTION WITH A STOP SIGN, YOU SHOULD STOP AND",
+        options: [
+          { text: "Check your rearview mirror for cars tailgaiting", isCorrect: false },
+          { text: "Go when the vehicle ahead of you goes", isCorrect: false },
+          { text: "Look right first, then left, then right again", isCorrect: false },
+          { text: "Look left first, then right, then left again", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "TO TURN LEFT ON MULTI-LANE STREETS AND HIGHWAYS, YOU SHOULD START FROM:",
+        options: [
+          { text: "The middle of the intersection", isCorrect: false },
+          { text: "The right lane", isCorrect: false },
+          { text: "The left lane", isCorrect: true},
+          { text: "Any lane", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN ENTERING A HIGHWAY FROM AN ENTRANCE RAMP, YOU SHOULD GENERALLY:",
+        options: [
+          { text: "Enter above the speed of traffic to get ahead", isCorrect: false },
+          { text: "Enter slowly to avoid other vehicles", isCorrect: false },
+          { text: "Stop first, then slowly enter traffic", isCorrect: false },
+          { text: "Accelerate to the speed of traffic", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN EXITING A HIGHWAY, YOU SHOULD SLOW DOWN:",
+        options: [
+          { text: "On the main road, just before the exit lane", isCorrect: false },
+          { text: "Once you see the toil booth", isCorrect: false },
+          { text: "Once you have moved into the exit lane", isCorrect: true },
+          { text: "When you first see the exit sign", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN DRIVING ON A FREEWAY ENTRANCE RAMP, YOU SHOULD LOOK FOR A GAP IN FREEWAY TRAFFIC BY:",
+        options: [
+          { text: "Looking in the inside rearview mirror only", isCorrect: false },
+          { text: "Looking in the sideview mirror only", isCorrect: false },
+          { text: "Looking in both rearview and sideview mirrors", isCorrect: false },
+          { text: "Looking in your mirrors and turning your head to look over your shoulder", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF YOU WANT TO GET OFF OF A FREEWAY, BUT YOU MISSED YOUR EXIT, YOU SHOULD:",
+        options: [
+          { text: "Go to the next exit, and get off of the freewat there", isCorrect: true },
+          { text: "Make a U-turn through the median", isCorrect: false },
+          { text: "Put onto the shoulder and back your car to the exit", isCorrect: false },
+          { text: "Flag down a police officer for an escort back to your exit", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF YOU ARE WAITING TO TURN LEFT AT A MULTILANE INTERSECTION, AND OPPOSING TRAFFIC IS BLOCKING YOUR VIEW, YOU SHOULD:",
+        options: [
+          { text: "Accelerate rapidly when the first lane you need to cross is clear", isCorrect: false },
+          { text: "Wait until you can see all the lanes you need to cross before going ahead with your turn", isCorrect: true },
+          { text: "Wait for the opposing driver to wave you across the intersection", isCorrect: false },
+          { text: "Edge your car into each lane of opposing traffic as soon as it clears", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN NO SIGNS, SIGNALS OR POLICE TELL YOU WHAT TO DO AT AN INTERSECTION, THE LAW STATES THAT:",
+        options: [
+          { text: "Drivers on the right must yield to drivers on the left", isCorrect: false },
+          { text: "There are no laws stating who must yield", isCorrect: false },
+          { text: "Drivers going straight must yield to drivers turning left at an intersection", isCorrect: false },
+          { text: "Drivers turning left must yield to drivers going straight through an intersection", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: `"HIGHWAY HYPNOSIS" IS A DRIVER CONDITION THAT CAN RESULT FROM:`,
+        options: [
+          { text: "Staring at the roadway for long periods of time", isCorrect: true },
+          { text: "Frequent rest stops", isCorrect: false},
+          { text: "Too much sleep the night before your trip", isCorrect: false },
+          { text: "Short trips on expressways", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN PASSING ON MULTI-LANE HIGHWAYS:",
+        options: [
+          { text: "Be sure the passing lane is clear", isCorrect: true },
+          { text: "Pass only on the right", isCorrect: false},
+          { text: "Watch for oncoming traffic", isCorrect: false },
+          { text: "There is no need to signal", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: `"THE "FOUR-SECOND RULE" REFERS TO HOW ONE SHOULD:`,
+        options: [
+          { text: "Yield to other cars", isCorrect: false },
+          { text: "Turn at stop signs", isCorrect: false },
+          { text: "Follow another car", isCorrect: true },
+          { text: "Cross an intersection", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IT IS BEST TO KEEP A SPACE CUSHION:",
+        options: [
+          { text: "Only in back of your vehicle ", isCorrect: false },
+          { text: "Only on the left and right side of the vehicle", isCorrect: false },
+          { text: "Only in front of the vehicle", isCorrect: false },
+          { text: "On all sides of the vehicle", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "ALLOWING A SPACE CUSHION IS IMPORTANT BECAUSE IT:",
+        options: [
+          { text: "Prevents distractions from other vehicles", isCorrect: false },
+          { text: "Allow you time to react to situations", isCorrect: true },
+          { text: "Keeps traffic flowing at a safe space", isCorrect: false },
+          { text: "Keep other drivers apart", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "ALLOW A LARGER SPACE CUSHION WHEN STOPPING:",
+        options: [
+          { text: "On an up-hill", isCorrect: true },
+          { text: "At an intersection", isCorrect: false },
+          { text: "At a stop sign", isCorrect: false },
+          { text: "At a toll plaza", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN MAKING A TURN, YOU MUST ___ YOUR SPEED:",
+        options: [
+          { text: "Increase", isCorrect: false },
+          { text: "Maintain", isCorrect: false },
+          { text: "Vary", isCorrect: false },
+          { text: "Reduce", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN DRIVING IN TRAFFIC, IT IS SAFEST TO:",
+        options: [
+          { text: "Fluctuate your speed to keep alert", isCorrect: false },
+          { text: "Driver faster than the flow of traffic", isCorrect: false },
+          { text: "Drive slower than the flow of traffic", isCorrect: false },
+          { text: "Drive with the flow of traffic", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "THE MAXIMUM SPEED LIMIT IN THIS STATE IS ___ MILES PER HOUR:",
+        options: [
+          { text: "55", isCorrect: false },
+          { text: "50", isCorrect: false },
+          { text: "70", isCorrect: true },
+          { text: "60", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "DRIVE BELOW THE POSTED SPEED LIMIT WHEN:",
+        options: [
+          { text: "Anything makes conditions less than perfect", isCorrect: true },
+          { text: "Others drive below the speed limit", isCorrect: false },
+          { text: "Entering a highway where there are other cars", isCorrect: false },
+          { text: "You are on a four lane road", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "THE AMOUNT OF SPACE YOU NEED TO CROSS TRAFFIC DEPENDS ON THE:",
+        options: [
+          { text: "Road and weather conditions and oncoming traffic", isCorrect: true },
+          { text: "Presence of a stop sign", isCorrect: false },
+          { text: "Use of your turn signals", isCorrect: false },
+          { text: "Cars behind you", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "YOUR ABILITY TO STOP IS AFFECTED BY:",
+        options: [
+          { text: "Signal lights", isCorrect: false },
+          { text: "Other cars on the road", isCorrect: false},
+          { text: "The time of day", isCorrect: false },
+          { text: "The condition of the road", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHICH OF THE FOLLOWING IS TRUE ABOUT THE SPEED OF WHICH YOU TRAVEL:",
+        options: [
+          { text: "The safe speed to drive depends on many conditions", isCorrect: true },
+          { text: "Driving slowly is always safer", isCorrect: false },
+          { text: "The speed limit is always a safe speed", isCorrect: false },
+          { text: "Accelerating is always dangerous", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "TO PREPARE FOR ANYTHING COMING UP IN THE ROAD AHEAD, YOU SHOULD:",
+        options: [
+          { text: "Continually scan the entire road and roadsides", isCorrect: true },
+          { text: "Stare straight ahead at all times", isCorrect: false },
+          { text: "Drive with your left foot resting lightly on the break pedal", isCorrect: false },
+          { text: "Maintain focus toward the middle of the road", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "AT HIGHWAY SPPEDS, ON A DRY ROAD, A SAFE FOLLOWING DISTANCE IS AT LEAST:",
+        options: [
+          { text: "3 seconds of following distance from the car ahead of you", isCorrect: false },
+          { text: "2 seconds of following distance from the car ahead of you", isCorrect: true },
+          { text: "4 seconds of following distance from the car ahead of you", isCorrect: false },
+          { text: "2 car lengths of following distance from the car ahead of you", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: `WHAT CAN YOU DO TO AVOID THE NEED TO MAKE EMERGENCY(OR "PANIC") STOPS WHILE DRIVING IN TRAFFIC?`,
+        options: [
+          { text: "Honk your horn to make others aware of your presence", isCorrect: false },
+          { text: "Look ahead and maintain a safe following distance", isCorrect: true },
+          { text: "Drive in the right lane only", isCorrect: false },
+          { text: "Drive slower in the flow of traffic", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN FACED WITH ONE ONCOMING CAR TO THE LEFT AND A BICYCLIST TO THE RIGHT, YOU SHOULD:",
+        options: [
+          { text: "Pull onto the shoulder", isCorrect: false },
+          { text: "Split the difference", isCorrect: false },
+          { text: "Let the car pass and then pass the bike", isCorrect: true },
+          { text: "Pass the bike quickly", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF AN ONCOMING DRIVER IS HEADING TOWARD YOU IN YOUR LANE, YOU SHOULD:",
+        options: [
+          { text: "Steer right, blow your horn, and accelerate", isCorrect: false },
+          { text: "Steer left, blow your horn, and brake", isCorrect: false},
+          { text: "Steer right, blow your horn, and brake", isCorrect: true },
+          { text: "Stay in the center of your lane, blow your horn, and brake", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "IF THE REAR OF YOUR VEHICLE STARTS TO SKID LEFT, YOU SHOULD:",
+        options: [
+          { text: "Steer left", isCorrect: true },
+          { text: "Hit your breaks", isCorrect: false },
+          { text: "Accelerate", isCorrect: false },
+          { text: "Steer right", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "THE MOST EFFECTIVE THING YOU CAN DO TO REDUCE YOUR RISK OF GETTING INJURED OR KILLED IN A TRAFFIC CRASH:",
+        options: [
+          { text: "Wear your seatbelt", isCorrect: true },
+          { text: "Limit your driving to week days", isCorrect: false },
+          { text: "Stay in the right lane to multi-lane highways", isCorrect: false },
+          { text: "Limit your driving to times between 3:00pm and 6:00pm", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN DRIVING ON SLICK ROADS, YOU SHOULD:",
+        options: [
+          { text: "Take turns more slowly", isCorrect: true },
+          { text: "Change lanes quickly", isCorrect: false},
+          { text: "Accelerate quickly", isCorrect: false },
+          { text: "Brake hard", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHICH OF THE FOLLOWING IS TRUE ABOUT DRIVING ON A WET ROADWAY:",
+        options: [
+          { text: "As you drive faster, your tires become less effective", isCorrect: true },
+          { text: "Water does not affect cars with good tires", isCorrect: false },
+          { text: "Deeper water is less dangerous", isCorrect: false },
+          { text: "As you decrease your speed, the roadway becomes more slippery", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN DRIVING ON WET ROADS YOU SHOULD:",
+        options: [
+          { text: "Drive the speed limit", isCorrect: false },
+          { text: "Drive slightly faster than the speed limit", isCorrect: false},
+          { text: "Drive 5 to 10 miles below the speed limit", isCorrect: true },
+          { text: "Stay close to the vehicle ahead", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN DRIVING ON SLIPPERY ROADS, YOU SHOULD:",
+        options: [
+          { text: "Use alternate routes", isCorrect: false },
+          { text: "Drive as you would on dry roads", isCorrect: false },
+          { text: "Increase your following distance", isCorrect: true},
+          { text: "Avoid crossing at bridges or intersections", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN DRIVING ON WET ROADS, YOU SHOULD:",
+        options: [
+          { text: "Increase following distance to 5 or 6 seconds", isCorrect: true },
+          { text: "Decrease following distance to 2 seconds", isCorrect: false },
+          { text: "Not be concerned about following distance", isCorrect: false },
+          { text: "Maintain the 4-second follwing distance rule", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "ROADS FREEZE MORE QUICKLY WHEN THEY ARE:",
+        options: [
+          { text: "Flat", isCorrect: false },
+          { text: "Curvy", isCorrect: false},
+          { text: "In the sun", isCorrect: false },
+          { text: "Shaded", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "ROADS BECOME MORE SLIPPERY:",
+        options: [
+          { text: "When it has been raining for an hour or more", isCorrect: false },
+          { text: "The day after it rains", isCorrect: false },
+          { text: "For the fist 10 or 15 minutes of a rain storm", isCorrect: true },
+          { text: "Right after the rain has stopped", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "HYDROPLANING IS USUALLY CAUSED BY:",
+        options: [
+          { text: "Excessive stops", isCorrect: false },
+          { text: "Sudden stops", isCorrect: false},
+          { text: "Sudden turns", isCorrect: false },
+          { text: "Excessive speed", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "HYDROPLANING CAN BE HELPED BY DRIVING:",
+        options: [
+          { text: "Through shallow water", isCorrect: false },
+          { text: "Faster", isCorrect: false },
+          { text: "Slower", isCorrect: true },
+          { text: "Through deep watter", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN DRIVING IN FOG, YOU SHOULD USE YOUR ___:",
+        options: [
+          { text: "Low beam headlights", isCorrect: true },
+          { text: "High beam headlights", isCorrect: false },
+          { text: "Parking lights", isCorrect: false },
+          { text: "Hazard flashers", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "COMPARED TO DRIVING DURING THE DAY, DRIVING AT NIGHT IS:",
+        options: [
+          { text: "Less dangerous", isCorrect: false },
+          { text: "More dangerous", isCorrect: false},
+          { text: "No more or less dangerous", isCorrect: true},
+          { text: "Easier on your eyes", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "ANYTHING THAT REQUIRES YOU TO ___ COULD CAUSE YOU TO CRASH.",
+        options: [
+          { text: "Take your eyes off the road", isCorrect: false },
+          { text: "Takes your hands off the wheel", isCorrect: false },
+          { text: "Take your attention away from the driving task", isCorrect: false },
+          { text: "All of the above", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "DISTRACTED DRIVERS ARE AT A GREATER RISK OF A CRASH WHEN THEY ARE USING WHICH OF THE FOLLOWING:",
+        options: [
+          { text: "CD Player", isCorrect: false },
+          { text: "Radio", isCorrect: false},
+          { text: "Cell Phone", isCorrect: false },
+          { text: "All of the above", isCorrect: true},
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN YOU ARE IN A LINE OF TRAFFIC THAT IS CROSSING A RAILROAD TRACK THAT HAS NO SIGNALS OR GATES:",
+        options: [
+          { text: "You have the right of way and do not need to check for trains", isCorrect: false },
+          { text: "You may pass slower drivers crossing the track", isCorrect: false },
+          { text: "You need to make sure there is space to get all the way across the tracks without stopping, before you start to cross", isCorrect: true },
+          { text: "All of the above", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "WHEN APPROACHING A STOPPED SCHOOL BUS WITH ITS RED LIGHTS FLASHING AND ITS STOP ARM EXTENDED, YOU MUST:",
+        options: [
+          { text: "Stop 5 feet away from the bus", isCorrect: false },
+          { text: "Stop only if you see children are present", isCorrect: false },
+          { text: "Stop and remain stopped until it appears safe to proceed", isCorrect: false },
+          { text: "Stop and remain stopped until the red lights stop flashing and the stop arm has been withdrawn", isCorrect: true },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+
+
 
    
 
