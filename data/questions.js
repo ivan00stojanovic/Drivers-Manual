@@ -469,7 +469,7 @@ const quizQuestions = [
           { text: "Turning right", isCorrect: false },
           { text: "Opening their door", isCorrect: false },
         ],
-        imageUrl: ""FALI SLIKA, // Optional image URL
+        imageUrl: "", // Optional image URL
       },
       {
         questionText: "IF YOUR TURN SIGNALS FAIL, YOU SHOULD USE ___ TO INDICATE YOU ARE TURNING",
@@ -569,7 +569,7 @@ const quizQuestions = [
           { text: "Stopping", isCorrect: false },
           { text: "Turning right", isCorrect: true },
         ],
-        imageUrl: "data/images/.white.jpg" FALI SLIKA, // Optional image URL
+        imageUrl: "data/images/.white.jpg" , // Optional image URL
       },
       {
         questionText: "THE DRIVER IS:",
@@ -579,7 +579,7 @@ const quizQuestions = [
           { text: "Slowing", isCorrect: false },
           { text: "Turning right", isCorrect: false },
         ],
-        imageUrl: "data/images/.white.jpg" FALI SLIKA, // Optional image URL
+        imageUrl: "data/images/.white.jpg" , // Optional image URL
       },
       {
         questionText: "IF ANOTHER CAR IS IN DANGER OF HITTING YOU, YOU SHOULD:",
@@ -819,7 +819,7 @@ const quizQuestions = [
           { text: "The center lane mergers into one lane", isCorrect: false },
           { text: "Center lane traffic must turn left", isCorrect: false },
         ],
-        imageUrl: "data/images/.white.jpg", FALI SLIKA // Optional image URL
+        imageUrl: "data/images/.white.jpg",  // Optional image URL
       },
       {
         questionText: "THE MOST IMPORTANT THING TO REMEMBER ABOUT SPEED MANAGMENT AND CURVES IS TO:",
@@ -1284,9 +1284,9 @@ const quizQuestions = [
       {
         questionText: "WHEN YOU SEE THIS SIGN, YOU MUST:",
         options: [
-          { text: "Stop completely, check for pedestrians, and cross traffic", isCorrect: false },
+          { text: "Stop completely, check for pedestrians, and cross traffic", isCorrect: true },
           { text: "Slow down without coming to a complete stop", isCorrect: false },
-          { text: "Slow down completely and wait for a green light", isCorrect: true },
+          { text: "Slow down completely and wait for a green light", isCorrect: false },
           { text: "Slow down and check for traffic", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1306,17 +1306,17 @@ const quizQuestions = [
         options: [
           { text: "Stop", isCorrect: false },
           { text: "No U-turn", isCorrect: false },
-          { text: "Yield ", isCorrect: true },
-          { text: "Do not enter", isCorrect: false },
+          { text: "Yield ", isCorrect: false },
+          { text: "Do not enter", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
         options: [
-          { text: "No U-turn", isCorrect: false },
+          { text: "No U-turn", isCorrect: true},
           { text: "No left turn", isCorrect: false },
-          { text: "No right turn", isCorrect: true },
+          { text: "No right turn", isCorrect: false },
           { text: "No turning", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1354,9 +1354,9 @@ const quizQuestions = [
       {
         questionText: "WHEN DRIVING NEAR A BLIND PEDESTRIAN WHO IS CARRYING A WHITE CANE OR USING A GUIDE DOG, YOU SHOULD:",
         options: [
-          { text: "Slow down and be prepared to stop", isCorrect: false },
+          { text: "Slow down and be prepared to stop", isCorrect: true },
           { text: "Take the right-of-way", isCorrect: false },
-          { text: "Proceed normally", isCorrect: true },
+          { text: "Proceed normally", isCorrect: false },
           { text: "Drive away quickly", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1364,9 +1364,9 @@ const quizQuestions = [
       {
         questionText: "IF THERE ARE NO SIGNALS AT RAILROAD CROSSINGS, YOU SHOULD:",
         options: [
-          { text: "Slow down and prepare to stop if you see or hear a train approaching", isCorrect: false },
+          { text: "Slow down and prepare to stop if you see or hear a train approaching", isCorrect: true },
           { text: "Proceed as quickly as possible over the tracks", isCorrect: false },
-          { text: "Proceed through the crossing at a normal rate", isCorrect: true },
+          { text: "Proceed through the crossing at a normal rate", isCorrect: false },
           { text: "Proceed slowly over the tracks", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1375,8 +1375,8 @@ const quizQuestions = [
         questionText: "YOU MAY DRIVE AROUND THE GATES AT A RAILROAD CROSSING:",
         options: [
           { text: "When the train has passed", isCorrect: false },
-          { text: "Never", isCorrect: false },
-          { text: "When the lights have stopped flashing", isCorrect: true },
+          { text: "Never", isCorrect: true },
+          { text: "When the lights have stopped flashing", isCorrect: false },
           { text: "When other drivers drive around the gates", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1386,8 +1386,8 @@ const quizQuestions = [
         options: [
           { text: "May not exit the freeway in this lane", isCorrect: false },
           { text: "May continue through the interchange or exit the freeway in this lane", isCorrect: false },
-          { text: "May stay in this lane and continue through the interchange", isCorrect: true },
-          { text: "Must exit the freeway if you stay in this lane", isCorrect: false },
+          { text: "May stay in this lane and continue through the interchange", isCorrect: false },
+          { text: "Must exit the freeway if you stay in this lane", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -1395,8 +1395,8 @@ const quizQuestions = [
         questionText: "HIGHWAY AND EXPRESSWAY GUIDE SIGNS ARE:",
         options: [
           { text: "Orange with black letters", isCorrect: false },
-          { text: "Green with white letters", isCorrect: false },
-          { text: "Yellow with black letters", isCorrect: true },
+          { text: "Green with white letters", isCorrect: true },
+          { text: "Yellow with black letters", isCorrect: false },
           { text: "Red with white letters", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1426,17 +1426,17 @@ const quizQuestions = [
         options: [
           { text: "Left curve ahead", isCorrect: false },
           { text: "Series of curves", isCorrect: false },
-          { text: "S curved ahead", isCorrect: true },
-          { text: "Slippery when wet", isCorrect: false },
+          { text: "S curved ahead", isCorrect: false },
+          { text: "Slippery when wet", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
       {
         questionText: "THIS SIGN INDICATES THAT:",
         options: [
-          { text: "There is a steep hill ahead", isCorrect: false },
+          { text: "There is a steep hill ahead", isCorrect: true },
           { text: "No trucks are allowed on the hill", isCorrect: false },
-          { text: "A logging road is ahead", isCorrect: true },
+          { text: "A logging road is ahead", isCorrect: false },
           { text: "There are trucks on the hill", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1444,9 +1444,9 @@ const quizQuestions = [
       {
         questionText: "A YELLOW AND BLACK DIAMOND-SHAPED SIGN:",
         options: [
-          { text: "Warns you about conditions on or near the road", isCorrect: false },
+          { text: "Warns you about conditions on or near the road", isCorrect: true },
           { text: "Helps direct you to cities or towns ahead", isCorrect: false },
-          { text: "Tells you about traffic laws and regulations", isCorrect: true },
+          { text: "Tells you about traffic laws and regulations", isCorrect: false },
           { text: "Tells you about road constructions ahead", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1454,9 +1454,9 @@ const quizQuestions = [
       {
         questionText: "THE SIGN WITH THIS SHAPE AND COLOR IS A ___ SIGN:",
         options: [
-          { text: "No passing zone", isCorrect: false },
+          { text: "No passing zone", isCorrect: true },
           { text: "Wrong way", isCorrect: false },
-          { text: "Railroad crossing", isCorrect: true },
+          { text: "Railroad crossing", isCorrect: false },
           { text: "Stop", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1464,9 +1464,9 @@ const quizQuestions = [
       {
         questionText: "WHICH OF THESE SIGNS IS USED TO SHOW THE END OF A DIVIDED HIGHWAY:",
         options: [
-          { text: "2", isCorrect: false },
+          { text: "2", isCorrect: true },
           { text: "4", isCorrect: false },
-          { text: "3", isCorrect: true },
+          { text: "3", isCorrect: false },
           { text: "1", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1474,9 +1474,9 @@ const quizQuestions = [
       {
         questionText: "THIS SIGN IS USED TO WARN DRIVERS ABOUT:",
         options: [
-          { text: "Lane ends, merge left", isCorrect: false },
+          { text: "Lane ends, merge left", isCorrect: true },
           { text: "Road curves ahead", isCorrect: false },
-          { text: "Right turn", isCorrect: true },
+          { text: "Right turn", isCorrect: false },
           { text: "Lane change", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1485,8 +1485,18 @@ const quizQuestions = [
         questionText: "THIS SIGN SHOWS ONE TYPE OF:",
         options: [
           { text: "Right turn", isCorrect: false },
-          { text: "Intersection", isCorrect: false },
-          { text: "Lane change", isCorrect: true },
+          { text: "Intersection", isCorrect: true },
+          { text: "Lane change", isCorrect: false },
+          { text: "Road curve", isCorrect: false },
+        ],
+        imageUrl: "data/images/.white.jpg", // Optional image URL
+      },
+      {
+        questionText: "THIS SIGN SHOWS ONE TYPE OF:",
+        options: [
+          { text: "Right turn", isCorrect: false },
+          { text: "Intersection", isCorrect: true },
+          { text: "Lane change", isCorrect: false },
           { text: "Road curve", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1496,8 +1506,8 @@ const quizQuestions = [
         options: [
           { text: "Driving with your headlights out of alignment because one side of your car is higher than the other", isCorrect: false },
           { text: "Damaging a tire, if you drift onto the shoulder", isCorrect: false },
-          { text: "Hydroplaning, if the shoulder has water on it", isCorrect: true },
-          { text: "Losing control of your vehicle, if you drift onto the shoulder, because of a drop off", isCorrect: false },
+          { text: "Hydroplaning, if the shoulder has water on it", isCorrect: false },
+          { text: "Losing control of your vehicle, if you drift onto the shoulder, because of a drop off", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -1506,8 +1516,8 @@ const quizQuestions = [
         options: [
           { text: "The traffic signal ahead is red", isCorrect: false },
           { text: "The traffic signal ahead is broken", isCorrect: false },
-          { text: "The traffic signal ahead is green", isCorrect: true },
-          { text: "There is a traffic signal ahead", isCorrect: false },
+          { text: "The traffic signal ahead is green", isCorrect: false },
+          { text: "There is a traffic signal ahead", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -1516,17 +1526,17 @@ const quizQuestions = [
         options: [
           { text: "Divided highway ends", isCorrect: false },
           { text: "One-way street begins", isCorrect: false },
-          { text: "One-way street ends", isCorrect: true },
-          { text: "Divided highway begins", isCorrect: false },
+          { text: "One-way street ends", isCorrect: false },
+          { text: "Divided highway begins", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
       {
         questionText: "FROM TOP TO BOTTOM, THE FOLLOWING IS THE PROPER ORDER FOR TRAFFIC LIGHTS:",
         options: [
-          { text: "Red, yellow, green", isCorrect: false },
+          { text: "Red, yellow, green", isCorrect: true },
           { text: "Red, green, yellow", isCorrect: false },
-          { text: "Green, red, yellow", isCorrect: true },
+          { text: "Green, red, yellow", isCorrect: false },
           { text: "Green, yellow, red", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1534,9 +1544,9 @@ const quizQuestions = [
       {
         questionText: "IF A GREEN ARROW TURNS INTO A GREEN LIGHT, YOU:",
         options: [
-          { text: "May still turn but you must yield to oncoming traffic", isCorrect: false },
+          { text: "May still turn but you must yield to oncoming traffic", isCorrect: true },
           { text: "May no longer turn and must proceed straight", isCorrect: false },
-          { text: "Still have the right of way to turn", isCorrect: true },
+          { text: "Still have the right of way to turn", isCorrect: false },
           { text: "No longer have to turn the way the arrow indicates", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1564,9 +1574,9 @@ const quizQuestions = [
       {
         questionText: "A FLASHING YELLOW LIGHT MEANS THAT YOU SHOULD:",
         options: [
-          { text: "Slow down and proceed with care", isCorrect: false },
+          { text: "Slow down and proceed with care", isCorrect: true },
           { text: "Continue through if the way is clear", isCorrect: false },
-          { text: "Stop and proceed when a green light appears", isCorrect: true },
+          { text: "Stop and proceed when a green light appears", isCorrect: false },
           { text: "Stop and proceed when the way is clear", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1574,9 +1584,9 @@ const quizQuestions = [
       {
         questionText: "YOU MUST STOP WHEN YOU SEE:",
         options: [
-          { text: "Flashing red light", isCorrect: false },
+          { text: "Flashing red light", isCorrect: true },
           { text: "Steady yellow light", isCorrect: false },
-          { text: "Yellow arrow", isCorrect: true },
+          { text: "Yellow arrow", isCorrect: false },
           { text: "Flashing yellow light", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1607,7 +1617,7 @@ const quizQuestions = [
           { text: "There is an emergency vehicle crossing your lane", isCorrect: false },
           { text: "There are no pedestrians crossing", isCorrect: false },
           { text: "You are turning right", isCorrect: true },
-          { text: "You are within the intersection", isCorrect: false },
+          { text: "You are within the intersection", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -1634,9 +1644,9 @@ const quizQuestions = [
       {
         questionText: "YOU MAY TURN RIGHT ON RED IF YOU:",
         options: [
-          { text: "Stop first and check for traffic and pedestrians", isCorrect: false },
+          { text: "Stop first and check for traffic and pedestrians", isCorrect: true },
           { text: "Have a right turn red arrow", isCorrect: false },
-          { text: "Are in the left lane", isCorrect: true },
+          { text: "Are in the left lane", isCorrect: false },
           { text: "Slow down first", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1655,8 +1665,8 @@ const quizQuestions = [
         questionText: "THE SPEED LIMIT IS ___ MILES PER HOUR WHEN THE YELLOW LIGHTS ARE FLASHING ON THE SCHOOL ZONE SPEED SIGN.",
         options: [
           { text: "25", isCorrect: false },
-          { text: "15", isCorrect: false },
-          { text: "20", isCorrect: true },
+          { text: "15", isCorrect: true },
+          { text: "20", isCorrect: false },
           { text: "35", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1664,9 +1674,9 @@ const quizQuestions = [
       {
         questionText: "A FLASHING RED LIGHT AT A RAILROAD CROSSING MEANS:",
         options: [
-          { text: "Stop, do not proceed until signals are completed", isCorrect: false },
+          { text: "Stop, do not proceed until signals are completed", isCorrect: true },
           { text: "Slow down and proceed if clear", isCorrect: false },
-          { text: "Proceed with caution", isCorrect: true },
+          { text: "Proceed with caution", isCorrect: false },
           { text: "You have the right-of-way", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1674,9 +1684,9 @@ const quizQuestions = [
       {
         questionText: "THIS GREEN ARROW ON A LANE USE CONTROL SIGNAL MEANS THAT:",
         options: [
-          { text: "You may use this lane", isCorrect: false },
+          { text: "You may use this lane", isCorrect: true },
           { text: "No traffic is allowed on this lane", isCorrect: false },
-          { text: "You have the right-of-way", isCorrect: true },
+          { text: "You have the right-of-way", isCorrect: false },
           { text: "You must merge into this lane", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1686,8 +1696,8 @@ const quizQuestions = [
         options: [
           { text: "Pedestrians ahead", isCorrect: false },
           { text: "End of construction zone", isCorrect: false },
-          { text: "School crossing ahead", isCorrect: true },
-          { text: "Flagger ahead", isCorrect: false },
+          { text: "School crossing ahead", isCorrect: false },
+          { text: "Flagger ahead", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -1695,8 +1705,8 @@ const quizQuestions = [
         questionText: "THIS SIGN MEANS THAT:",
         options: [
           { text: "A community service group is picking up trash along the highway ahead", isCorrect: false },
-          { text: "Workers are on or very close to the road in the work zone ahead", isCorrect: false },
-          { text: "Children are at play ahead", isCorrect: true },
+          { text: "Workers are on or very close to the road in the work zone ahead", isCorrect: true },
+          { text: "Children are at play ahead", isCorrect: false },
           { text: "There is a pedestrian crosswalk ahead", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1705,8 +1715,8 @@ const quizQuestions = [
         questionText: "WHEN AN ARROW PANEL IN A WORK ZONE SHOWS EITHER OF THE FOLLOWING PATTERNS, IT MEANS:",
         options: [
           { text: "The bulbs on the sign are burned out", isCorrect: false },
-          { text: "Drive with caution", isCorrect: false },
-          { text: "Changes lanes immediately", isCorrect: true },
+          { text: "Drive with caution", isCorrect: true },
+          { text: "Changes lanes immediately", isCorrect: false },
           { text: "Turn your radio on to a station that gives traffic updates", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1715,8 +1725,8 @@ const quizQuestions = [
         questionText: "THE CENTER LANE IN THE ILLUSTRATION IS USED FOR:",
         options: [
           { text: "Regular travel", isCorrect: false },
-          { text: "Left turns only", isCorrect: false },
-          { text: "Passing only", isCorrect: true },
+          { text: "Left turns only", isCorrect: true },
+          { text: "Passing only", isCorrect: false },
           { text: "Emergency vehicles only", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1724,9 +1734,9 @@ const quizQuestions = [
       {
         questionText: "YOU MAY PASS IF THE LINE DIVIDING TWO LANES IS A ___ LINE.",
         options: [
-          { text: "Broken white", isCorrect: false },
+          { text: "Broken white", isCorrect: true },
           { text: "Double solid yellow", isCorrect: false },
-          { text: "Solid yellow", isCorrect: true },
+          { text: "Solid yellow", isCorrect: false },
           { text: "Solid white", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1735,8 +1745,8 @@ const quizQuestions = [
         questionText: "LANES OF TRAFFIC MOVING IN THE SAME DIRECTION ARE DIVIDED BY ___ LINES.",
         options: [
           { text: "Yellow", isCorrect: false },
-          { text: "White", isCorrect: false },
-          { text: "Red", isCorrect: true },
+          { text: "White", isCorrect: true },
+          { text: "Red", isCorrect: false },
           { text: "Black", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1756,8 +1766,8 @@ const quizQuestions = [
         options: [
           { text: "To pass traffic moving in the same direction", isCorrect: false },
           { text: "During daylight hours only", isCorrect: false },
-          { text: "At any time", isCorrect: true },
-          { text: "When making turns", isCorrect: false },
+          { text: "At any time", isCorrect: false },
+          { text: "When making turns", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -1776,8 +1786,8 @@ const quizQuestions = [
         options: [
           { text: "White", isCorrect: false },
           { text: "Red", isCorrect: false },
-          { text: "Black", isCorrect: true },
-          { text: "Yellow", isCorrect: false },
+          { text: "Black", isCorrect: false },
+          { text: "Yellow", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -1806,8 +1816,8 @@ const quizQuestions = [
         options: [
           { text: "Wait 5 seconds, then proceed", isCorrect: false },
           { text: "Sound your horn before procedding", isCorrect: false },
-          { text: "Put down your windows, listen for traffic, and then proceed", isCorrect: true },
-          { text: "Pull forward slowly, check for traffic and pedestrians, and proceed when clear", isCorrect: false },
+          { text: "Put down your windows, listen for traffic, and then proceed", isCorrect: false },
+          { text: "Pull forward slowly, check for traffic and pedestrians, and proceed when clear", isCorrect: true },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
       },
@@ -1834,9 +1844,9 @@ const quizQuestions = [
       {
         questionText: "FROM THE CENTER LANE, WHAT MANEUVERS CAN YOU PERFORM?",
         options: [
-          { text: "Make left turns", isCorrect: false },
+          { text: "Make left turns", isCorrect: true },
           { text: "Make U-turns", isCorrect: false },
-          { text: "Pass slower-moving traffic", isCorrect: true },
+          { text: "Pass slower-moving traffic", isCorrect: false },
           { text: "All of the above", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
@@ -1844,9 +1854,9 @@ const quizQuestions = [
       {
         questionText: "WHICH OF THESE SIGNS MEANS THAT DRIVERS SHOULD KEEP TO THE RIGHT?",
         options: [
-          { text: "2", isCorrect: false },
+          { text: "2", isCorrect: true },
           { text: "1", isCorrect: false },
-          { text: "3", isCorrect: true },
+          { text: "3", isCorrect: false },
           { text: "4", isCorrect: false },
         ],
         imageUrl: "data/images/.white.jpg", // Optional image URL
