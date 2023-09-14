@@ -336,3 +336,13 @@ a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
+
+/* h1 {
+  color: orange;
+} */
+
+@media all and (max-width: 360px) {
+  h1 {
+    color: orange;
+  } 
+} 
