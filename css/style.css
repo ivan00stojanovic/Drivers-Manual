@@ -14,12 +14,13 @@
 
 /* Styling for the landing page */
 .landing-page {
-  max-width: 600px;
+  width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
+  /* border: 2px solid red; */
 }
 
 .landing-page h1 {
@@ -341,8 +342,27 @@ a:hover::before {
   color: orange;
 } */
 
-@media all and (max-width: 360px) {
-  h1 {
+
+@media screen and (max-width: 420px) {
+  .landing-page {
+    width: 320px;
+    max-height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
     color: orange;
-  } 
-} 
+    margin-bottom: 10rem;
+  }
+
+  .centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem; /* Set the height of the container to vertically center the content */
+    margin-top: 2.5rem;
+    width: 420px;
+  }
+}
+
