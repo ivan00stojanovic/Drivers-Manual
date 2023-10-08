@@ -13,17 +13,37 @@ const optionFour = document.getElementById('option4')
 const options = document.querySelector('.quiz-option')
 const optionsArray = [optionOne, optionTwo, optionThree, optionFour]
 const startQuizBtn = document.getElementById("start-quiz-btn");
-let score = document.getElementById('score-display')
+let correctDisplay = document.querySelector('.correct')
+let incorrectDisplay = document.querySelector('.incorrect')
+let skippedDisplay = document.querySelector('.skipped')
+
+// Counters for each possible answer result 
+let correctCounter = 0
+let incorrectCounter = 0
+let skippedCounter = 0
 
 
 document.addEventListener('keydown', function(event) {
     const key = event.key;
     const selectedOption = document.querySelector(`[data-key="${key}"]`);
-        if (selectedOption) {
+    // console.log('hejo')
+     
+    if (selectedOption) {
           selectedOption.click(); 
           console.log(selectedOption.value)
-        }else if(key === 'Enter') {
-            nextQuestionBtn.click()
+        }else if(key === 'Enter' && landingPage.style.display !== 'none' ){
+          startQuizBtn.click()
+          console.log('sajsasj')
+        }else if(key === 'Enter' && nextQuestionBtn.style.display !== 'block') {
+          skippedCounter++;
+          skippedDisplay.innerText = `Skipped: ${skippedCounter} / 2`
+          nextQuestionBtn.click();
+            if(skippedCounter > 2){
+               console.log('tu mach')
+               alert('Only 2 skips allowed per session')
+            }
+        }else if( key === 'Enter'){
+          nextQuestionBtn.click()
         }
   });
 
@@ -79,14 +99,14 @@ nextQuestionBtn.addEventListener('click', function() {
       
   //     nextQuestionBtn.style.display = 'block';
   //   //   option.disabled = true
-  //     // Update the score based on the user's answer (example)
+  //     // Update the correctDisplay based on the user's answer (example)
   //   // const isCorrectAnswer = 5/* Your logic to determine if the answer is correct */;
   //   // if (isCorrectAnswer) {
-  //   //   score += 1;
+  //   //   correctDisplay += 1;
   //   // }
     
-  //   // Update the score display
-  //   // scoreDisplay.textContent = `Score: ${score}`
+  //   // Update the correctDisplay display
+  //   // correctCounterDisplay.textContent = `correctDisplay: ${correctDisplay}`
   
   //     // Disable all options to prevent further clicks until the user clicks "Next Question"
   //     optionsArray.forEach(option => {
@@ -121,23 +141,19 @@ let correctAnswerIndex
     return answerOptions.sort(() => 0.5 - Math.random());
   };
 
-
-  //Updating the score after each click, will need doing
-  let correctAnswers = 0
-  let questionCounter = 0
   
 
 // Add the click event listener to each option
 optionsArray.forEach((option, index) => {
     option.addEventListener('click', function() {
-      //Increment the question counter
-      questionCounter++
         // Check if the clicked option is correct
         if (index === correctAnswerIndex) {
-          correctAnswers++
+          correctCounter++
             option.classList.add('correct-option'); // Apply the green animation to the correct option
             console.log('Hell Yeah');
         }else{
+          incorrectCounter++
+          incorrectDisplay.innerText = ` Wrong : ${incorrectCounter}` 
           option.classList.add('wrong-option')
           console.log('What is love')
           const correctOption = optionsArray[correctAnswerIndex];
@@ -148,7 +164,7 @@ optionsArray.forEach((option, index) => {
         optionsArray.forEach(option => {
             option.disabled = true;
         });
-          score.innerText = `${correctAnswers} / ${questionCounter}`
+          correctDisplay.innerText = `Correct: ${correctCounter} / 18`
     });
 });
 

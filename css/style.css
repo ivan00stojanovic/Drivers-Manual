@@ -120,6 +120,7 @@ button#submit-btn:hover {
   display: none;
 }
 
+
 /* Styling for the question container */
 .question-container {
     margin-bottom: 30px;
@@ -127,6 +128,8 @@ button#submit-btn:hover {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.13);
     text-align: center; /* Center the content within the question container */
+    /* border: 2px solid red; */
+    /* max-width: 200px; */
   }
   
   /* Styling for the question text */
@@ -152,13 +155,14 @@ button#submit-btn:hover {
     margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Create a 2-column grid */
-    gap: 30px;
+    gap: 15px;
   }
   
   /* Styling for the individual option items */
   .options-grid li {
     display: flex;
     justify-content: center; /* Center the options horizontally within each grid cell */
+    /* max-width: 20px; */
   }
   
 
@@ -173,6 +177,7 @@ button#submit-btn:hover {
   border: 1px solid #ddd;
   border-radius: 5px;
   cursor: pointer;
+  border: 2px solid orange;
 }
 
 /* Apply a different background color when hovering over options */
@@ -294,12 +299,19 @@ button#submit-btn:hover {
     transform: scale(1.15);
 }
 
-#score-display {
-    margin-top: 20px;
+.activity-display {
     font-size: 22px;
     color: var(--clr-blue-500);
-    margin-top: 8rem;
+    margin-top: 5rem;
     position: fixed;
+    /* border: 2px solid red; */
+    display: flex;
+  }
+
+  .activity-display > li {
+    padding: 1rem 10rem;
+    
+    list-style-type: none;
   }
 /* Styling for the footer */
 footer {
@@ -344,6 +356,7 @@ a:hover::before {
 
 
 @media screen and (max-width: 420px) {
+  
   .landing-page {
     width: 320px;
     max-height: 500px;
@@ -356,6 +369,10 @@ a:hover::before {
     margin-bottom: 10rem;
   }
 
+  .container {
+    font-size: 12px;
+  }
+
   .centered-content {
     display: flex;
     justify-content: center;
@@ -364,5 +381,52 @@ a:hover::before {
     margin-top: 2.5rem;
     width: 420px;
   }
+  .question-container {
+    margin-bottom: 30px;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.13);
+    text-align: center; /* Center the content within the question container */
+    /* border: 2px solid red; */
+    max-width: 400px;
+    max-height: 150px;
+  }
+  
+  /* Styling for the question text */
+  .question-container h1 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 20px; /* Add some top margin to the question heading */
+  }
+
+/* Styling for the question image */
+.question-container img {
+    width: 300px; /* Set your desired width here */
+    max-height: 200px; /* Set your desired height here */
+    object-fit: cover; /* Maintain aspect ratio and crop the image to fit the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image behaves as a block element */
+    margin-bottom: 15px;
+    border: 2px solid saddlebrown;
+}
+
+.options-grid {
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create a 2-column grid */
+    gap: 15px;
+    /* border: 2px solid red; */
+  }
+  
+  /* Styling for the individual option items */
+  .options-grid li {
+    display: flex;
+    justify-content: center; /* Center the options horizontally within each grid cell */
+    max-width: 100px;
+    color: violet;
+  }
+  
 }
 
