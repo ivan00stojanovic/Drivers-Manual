@@ -40,7 +40,7 @@ document.addEventListener('keydown', function(event) {
           nextQuestionBtn.click();
             if(skippedCounter > 2){
                console.log('tu mach')
-               alert('Only 2 skips allowed per session')
+               alert('Only 2 skips allowed per test')
             }
         }else if( key === 'Enter'){
           nextQuestionBtn.click()
