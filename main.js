@@ -1,5 +1,9 @@
 import quizQuestions from "./data/questions.js";
 
+// TODO:
+// 1. Limit to 2 skips per test, make it look better
+// 2. Pop Up after test finish, either after 18 right ones or 5 wrong ones
+// 3. Add Images to corresponding questions
 
 const landingPage = document.querySelector(".landing-page");
 const tipSection = document.querySelector('.centered-content')
