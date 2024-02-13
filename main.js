@@ -35,18 +35,18 @@ document.addEventListener('keydown', function(event) {
     if (selectedOption) {
           selectedOption.click(); 
           console.log(selectedOption.value)
-        }else if(key === 'Enter' && landingPage.style.display !== 'none' ){
+        }else if(key === ' ' && landingPage.style.display !== 'none' ){
           startQuizBtn.click()
           console.log('sajsasj')
-        }else if(key === 'Enter' && nextQuestionBtn.style.display !== 'block') {
+        }else if(key === ' ' && nextQuestionBtn.style.display !== 'block') {
           skippedCounter++;
           skippedDisplay.innerText = `Skipped: ${skippedCounter} / 2`
           nextQuestionBtn.click();
             if(skippedCounter > 2){
                console.log('tu mach')
-               alert('Only 2 skips allowed per test')
+              //  alert('Only 2 skips allowed per test')
             }
-        }else if( key === 'Enter'){
+        }else if( key === ' '){
           nextQuestionBtn.click()
         }
   });
@@ -171,9 +171,6 @@ optionsArray.forEach((option, index) => {
           correctDisplay.innerText = `Correct: ${correctCounter} / 18`
     });
 });
-
-
-
     
     
     // Loop through the options and set the text for each button
@@ -181,8 +178,6 @@ optionsArray.forEach((option, index) => {
     //   optionsArray[index].textContent = option.text;
     //   optionsArray[index].dataset.isCorrect = option.isCorrect;
     // });
-  
-
 
   const fadeAway = (btn) =>{
     btn.style.display = 'none';
