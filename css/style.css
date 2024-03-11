@@ -120,6 +120,17 @@ button#submit-btn:hover {
 #quiz-container {
   display: none;
 }
+ span{
+  color: #0084f0;
+  font-size: 1.5rem;
+ }
+.rules{
+  margin: 2rem 0rem;
+}
+.rules > li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
 
 
 /* Styling for the question container */

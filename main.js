@@ -33,19 +33,28 @@ document.addEventListener('keydown', function(event) {
     // console.log('hejo')
      
     if (selectedOption) {
-          selectedOption.click(); 
-          console.log(selectedOption.value)
-        }else if(key === ' ' && landingPage.style.display !== 'none' ){
-          startQuizBtn.click()
-          console.log('sajsasj')
-        }else if(key === ' ' && nextQuestionBtn.style.display !== 'block') {
-          skippedCounter++;
-          skippedDisplay.innerText = `Skipped: ${skippedCounter} / 2`
-          nextQuestionBtn.click();
-            if(skippedCounter > 2){
-               console.log('tu mach')
-              //  alert('Only 2 skips allowed per test')
+      selectedOption.click(); 
+      // console.log(selectedOption.value, `,Button status is => ${nextQuestionBtn.disabled}`)
+      // nextQuestionBtn.disabled = false
+    }
+      if( key === ' ' && skippedCounter >= 2 && nextQuestionBtn.style.display !== 'block' ){
+              nextQuestionBtn.disabled = true
+              alert('Only 2 skips allowed per test')
+              // console.log(nextQuestionBtn.disabled)
+              // console.log(skippedCounter)
+            }else if(key === ' ' && skippedCounter >= 2 && nextQuestionBtn.style.display == 'block'){
+              nextQuestionBtn.disabled = false
+              nextQuestionBtn.click()
+              // console.log(`Counter for skipped is ${skippedCounter}, button status is ${nextQuestionBtn.disabled}`)
             }
+    else if(key === ' ' && landingPage.style.display !== 'none' ){
+      startQuizBtn.click()
+      // console.log('sajsasj')
+    }else if(key === ' ' && nextQuestionBtn.style.display !== 'block') {
+      skippedCounter++;
+      // console.log(skippedCounter)
+      skippedDisplay.innerText = `Skipped: ${skippedCounter} / 2`
+      nextQuestionBtn.click();
         }else if( key === ' '){
           nextQuestionBtn.click()
         }
@@ -88,43 +97,16 @@ nextQuestionBtn.addEventListener('click', function() {
   });
   
 
-
-  // WILL NEED TO WRITE A CHECK CORRECT ANSWER FUNCTION HERE
-  // Event listener for the options
-  // optionsArray.forEach(option, index => {
-  //   option.addEventListener('click', function() {
-  //     // You can add code to handle the user's selection here.
-  //     // For example, update the UI to show if the selection is correct or not.
-  //     // Show the "Next Question" button after the user clicks an option
-  //     if (index === correctAnswerIndex) {
-  //       option.classList.add('correct-option'); // Apply the green animation to the correct option
-  //       console.log('Hell Yeah');
-  //   }
-      
-  //     nextQuestionBtn.style.display = 'block';
-  //   //   option.disabled = true
-  //     // Update the correctDisplay based on the user's answer (example)
-  //   // const isCorrectAnswer = 5/* Your logic to determine if the answer is correct */;
-  //   // if (isCorrectAnswer) {
-  //   //   correctDisplay += 1;
-  //   // }
-    
-  //   // Update the correctDisplay display
-  //   // correctCounterDisplay.textContent = `correctDisplay: ${correctDisplay}`
-  
-  //     // Disable all options to prevent further clicks until the user clicks "Next Question"
-  //     optionsArray.forEach(option => {
-  //       option.disabled = true;
-  //     });
-  //   });
-  // });
-
   
 let correctAnswerIndex
+const questionImage = document.querySelector('.question-img')
+
 
   const displayQuestion = (question) => {
     // Set the question text
     questionh1.innerHTML = question.questionText;
+    // questionImage = /*question.imageUrl*/ 'data/images/black.jpg'
+
   
     // Shuffle the options for this question
     const shuffledOptions = shuffleOptions([...question.options]);
@@ -152,6 +134,7 @@ optionsArray.forEach((option, index) => {
     option.addEventListener('click', function() {
         // Check if the clicked option is correct
         if (index === correctAnswerIndex) {
+          console.log(correctAnswerIndex + 1)
           correctCounter++
             option.classList.add('correct-option'); // Apply the green animation to the correct option
             console.log('Hell Yeah');
@@ -159,7 +142,6 @@ optionsArray.forEach((option, index) => {
           incorrectCounter++
           incorrectDisplay.innerText = ` Wrong : ${incorrectCounter}` 
           option.classList.add('wrong-option')
-          console.log('What is love')
           const correctOption = optionsArray[correctAnswerIndex];
           correctOption.classList.add('correct-option');
         }
@@ -168,7 +150,8 @@ optionsArray.forEach((option, index) => {
         optionsArray.forEach(option => {
             option.disabled = true;
         });
-          correctDisplay.innerText = `Correct: ${correctCounter} / 18`
+          correctDisplay.innerText = `Correct: ${correctCounter} / 15`
+          nextQuestionBtn.disabled = false
     });
 });
     
