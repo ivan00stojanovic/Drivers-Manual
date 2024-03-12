@@ -8,7 +8,7 @@ const quizQuestions = [
         { text: "20", isCorrect: false },
         { text: "18", isCorrect: false },
       ],
-      imageUrl: "data/images/black.jpg", // Optional image URL
+      imageUrl: "data/images/white.jpg", // Optional image URL
     },
     {
         questionText: "PEOPLE UNDER 16 YEARS OF AGE WHO USE A FALSE IDENTIFICATION CARD TO BUY ALCOHOL WILL:",
@@ -18,7 +18,7 @@ const quizQuestions = [
           { text: "Receive a driving suspension that starts on their 16th birthday ", isCorrect: true },
           { text: "Be sent to an alcohol safety education class", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF A PERSON UNDER 21 YEARS OLD CONSUMES ALCOHOL, BUT IS NOT DRIVING A MOTORVEHICLE, THE PENALTY FOR A FIRST OFFENSE IS:",
@@ -28,7 +28,7 @@ const quizQuestions = [
           { text: "A 90-day driver license suspension and up to a $500 fine", isCorrect: true },
           { text: "Points on the driving record", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "PARENTAL CONSENT TO CONDUCT BREATH, BLOOD, AND URINE TESTS IS:",
@@ -38,7 +38,7 @@ const quizQuestions = [
           { text: "Required from both parents", isCorrect: false },
           { text: "Required for people under 16 years old", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IT IS AGAINST THE LAW FOR ANYONE UNDER THE AGE OF 21 TO ______ ALCOHOL.",
@@ -48,7 +48,7 @@ const quizQuestions = [
           { text: "Serve", isCorrect: false },
           { text: " Consume", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IT IS AGAINST THE LAW FOR ANYONE UNDER THE AGE OF 21 TO ______ ALCOHOL.",
@@ -58,7 +58,7 @@ const quizQuestions = [
           { text: "Wear clothes advertising", isCorrect: false },
           { text: "Serve", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IT IS AGAINST THE LAW FOR ANYONE UNDER THE AGE OF 21 TO ______ ALCOHOL.",
@@ -68,7 +68,7 @@ const quizQuestions = [
           { text: "Serve", isCorrect: false },
           { text: "Be in the presence of", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "ONE OF THE PENALTIES FOR DRIVING UNDER THE INFLUENCE OF ALCOHOL IS A(N):",
@@ -78,7 +78,7 @@ const quizQuestions = [
           { text: "Attendance to Alcohol Highway Safety School ", isCorrect: true },
           { text: "12-hour sentence in jail", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU ARE ARRESTED FOR DRIVING UNDER THE INFLUENCE OF ALCOHOL AND YOU REFUSE TO TAKE THE BLOOD TEST, YOU WILL RECIEVE A:",
@@ -88,7 +88,7 @@ const quizQuestions = [
           { text: "Sentence of one day in jail", isCorrect: false },
           { text: "$300.00 fine", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF A POLICE OFFICER REQUIRES YOU TO TAKE A BLOOD, BREATH, OR URINE TEST, YOU:",
@@ -98,7 +98,7 @@ const quizQuestions = [
           { text: "Must sign a consent form", isCorrect: false },
           { text: "May refuse if underage", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "FOR A FIRST CONVICTION FOR DRIVING UNDER THE INFLUENCE AT ANY BLOOD ALCOHOL CONCENTRATION LEVEL, YOU COULD: ",
@@ -108,7 +108,7 @@ const quizQuestions = [
           { text: " Be required to conduct a public education class on the dangers of drunk driving", isCorrect: false },
           { text: "Pay a fine of at least $300", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF UNDER 21 YEARS OF AGE YOU ARE CONSIDERED TO BE DRIVING WHILE UNDER THE INFLUENCE IF YOUR BLOOD ALCOHOL LEVEL IS:",
@@ -118,7 +118,7 @@ const quizQuestions = [
           { text: ".02% or higher", isCorrect: true },
           { text: ".10% or higher", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: " IF YOU ARE UNDER AGE 21 AND ARE CONVICTED OF DRIVING UNDER THE INFLUENCE OF ALCOHOL, YOU WILL RECEIVE A ____ LICENSE SUSPENSION FOR A FIRST OFFENSE.",
@@ -128,7 +128,7 @@ const quizQuestions = [
           { text: "30-Day", isCorrect: false },
           { text: "6-Month", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: " IF YOU ARE UNDER AGE 21, AND ARE CONVICTED OF CARRYING A FALSE ID CARD, YOU WILL BE REQUIRED TO PAY A $500 FINE AND YOUR LICENSE WILL BE SUSPENDED FOR 90 DAYS",
@@ -138,7 +138,7 @@ const quizQuestions = [
           { text: " Only if your blood alcohol content (BAC) is .02% or higher and you were driving at the time of arrest", isCorrect: false },
           { text: "Even if you were not driving", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE ZERO TOLERANCE LAW REDUCED THE BLOOD ALCOHOL CONTENT (BAC) FROM .08% TO ____ FOR DRIVERS UNDER 21 TO BE CHARGED WITH DRIVING UNDER THE INFLUENCE. ",
@@ -148,7 +148,7 @@ const quizQuestions = [
           { text: ".05%", isCorrect: false },
           { text: ".07%", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: " IF YOU ARE STOPPED BY A POLICE OFFICER, YOU SHOULD:",
@@ -158,7 +158,7 @@ const quizQuestions = [
           { text: " Get out of your car and walk toward the patrol car", isCorrect: false },
           { text: "Unbuckle your seat belt and lower your window", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       //Chapter 3 review questions
       {
@@ -169,7 +169,7 @@ const quizQuestions = [
           { text: " Get out of your car and walk toward the patrol car", isCorrect: false },
           { text: "Unbuckle your seat belt and lower your window", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "TEENAGE DRIVERS ARE MORE LIKELY TO BE INVOLVED IN A CRASH WHEN: :",
@@ -179,7 +179,7 @@ const quizQuestions = [
           { text: "They are driving with teenage passengers", isCorrect: true },
           { text: "They are driving without any passengers", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "DRIVERS WHO EAT AND DRINK WHILE DRIVING:",
@@ -189,7 +189,7 @@ const quizQuestions = [
           { text: "Are better drivers because they are not hungry", isCorrect: false },
           { text: "Have trouble controlling their vehicles", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "PREPARING TO SMOKE AND SMOKING WHILE DRIVING:",
@@ -199,7 +199,7 @@ const quizQuestions = [
           { text: "Are distracting activities", isCorrect: true },
           { text: "Are not distracting activities", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE TOP MAJOR CRASH TYPE FOR 16 YEAR OLD DRIVERS IN PENNSYLVANIA IS:",
@@ -209,7 +209,7 @@ const quizQuestions = [
           { text: "Driving in reverse on a side street", isCorrect: false },
           { text: "Driving on the shoulder of a highway", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN PASSING A BICYCLIST, YOU SHOULD:",
@@ -219,7 +219,7 @@ const quizQuestions = [
           { text: "Remain in the center of the lane", isCorrect: false },
           { text: "Put on your for way flashers", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN YOU DRIVE THROUGH AN AREA WHERE CHILDREN ARE PLAYING, YOU SHOULD EXPECT THEM:",
@@ -229,7 +229,7 @@ const quizQuestions = [
           { text: "To run out in front of you without looking", isCorrect: true },
           { text: "Not to cross unless they are with an adult", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU ARE DRIVING BEHIND A MOTORCYCLE, YOU MUST:",
@@ -239,7 +239,7 @@ const quizQuestions = [
           { text: "Allow the motorcycle to use only half a lane", isCorrect: false },
           { text: "Pass in the same lane where the motorcycle is driving", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN TRAVELING BEHIND A MOTORCYCLE:",
@@ -249,7 +249,7 @@ const quizQuestions = [
           { text: "Allow at least 4 seconds of following distance", isCorrect: true},
           { text: "Allow a following distance of at least 4 motorcycle lengths", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU NEED TO USE EXTRA CAUTION WHEN DRIVING NEAR A PEDESTRIAN USING A WHITE CANE BECAUSE:",
@@ -259,7 +259,7 @@ const quizQuestions = [
           { text: "They are blind", isCorrect: true },
           { text: "They have a walking problem", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING NEAR A BLIND PEDESTRIAN WHO IS CARRYING A WHITE CANE OR USING A GUIDE DOG, YOU SHOULD:",
@@ -269,7 +269,7 @@ const quizQuestions = [
           { text: "Proceed normally", isCorrect: false },
           { text: "Drive away quickly", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHO MUST YIELD WHEN A DRIVER IS TURNING AND A PEDESTRIAN IS CROSSING WITHOUT A TRAFFING LIGHT:",
@@ -279,7 +279,7 @@ const quizQuestions = [
           { text: "Whoever is slower", isCorrect: false },
           { text: "The pedestrian", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "AN ORANGE TRIANGLE ON THE BACK OF A VEHICLE INDICATES THAT VEHICLE:",
@@ -289,7 +289,7 @@ const quizQuestions = [
           { text: "Travels at slower speeds than normal traffic", isCorrect: true },
           { text: "Makes frequent stops", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "AT NIGHT, IT'S HARDEST TO SEE:",
@@ -299,7 +299,7 @@ const quizQuestions = [
           { text: "Other motorists", isCorrect: false },
           { text: "Street lights", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN A TRUCK DRIVER BEHIND YOU WANTS TO PASS YOUR VEHICLE, YOUR SPEED SHOULD:",
@@ -309,7 +309,7 @@ const quizQuestions = [
           { text: "Change", isCorrect: false },
           { text: "Increase", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN SHARING THE ROAD WITH A TRUCK, IT IS IMPORTANT TO REMEMBER THAT, IN GENERAL, TRUCKS:",
@@ -319,7 +319,7 @@ const quizQuestions = [
           { text: "Require less radius than cars", isCorrect: false },
           { text: "Require less time to pass on an incline than cars", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU STOP AT A RAILROAD CROSSING WITH MORE THAN ONE TRACK:",
@@ -329,7 +329,7 @@ const quizQuestions = [
           { text: "Go through as soon as the train passes", isCorrect: false },
           { text: "Go through when one of the tracks is free", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU ARE FOLLOWING A TRUCK THAT SWINGS LEFT BEFORE MAKING A RIGHT TURN AT AN INTERSECTION, YOU SHOULD REMEMBER THAT IT IS VERY DANGEROUS TO:",
@@ -339,7 +339,7 @@ const quizQuestions = [
           { text: `Violate the "4 - second" following distance rule`, isCorrect: false },
           { text: "Honk your horn at the truck driver", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE ONLY TIME YOU DO NOT HAVE TO STOP FOR A SCHOOL BUS WHOSE RED LIGHTS ARE FLASHING AND STOP ARM IS EXTENDED IS WHEN YOU:",
@@ -349,7 +349,7 @@ const quizQuestions = [
           { text: "See no children present", isCorrect: false },
           { text: "Can safely pass on the left", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN A SCHOOL BUS HAS ITS LIGHTS FLASHING AND ITS STOP ARM EXTENDED, YOU MUST:",
@@ -359,7 +359,7 @@ const quizQuestions = [
           { text: "Stop if the bus is on the opposite side of a barrier", isCorrect: false },
           { text: "Drive slowely by the bus", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "AFTER A TRAIN HAS PASSED, YOU SHOULD:",
@@ -369,7 +369,7 @@ const quizQuestions = [
           { text: "Proceed across the tracks", isCorrect: false },
           { text: "Blow horn and proceed", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU NEED TO SLOW DOWN OR STOP WHEN OTHER DRIVERS MAY NOT EXPECT IT, YOU SHOULD:",
@@ -379,7 +379,7 @@ const quizQuestions = [
           { text: "Look over your shoulder for traffic in your blind spot", isCorrect: false },
           { text: "Get ready to blow your horn", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN YOU ARE PLANNING TO MAKE A TURN, YOU SHOULD ACTIVATE YOUR TURN SIGNALS:",
@@ -389,7 +389,7 @@ const quizQuestions = [
           { text: "3 to 4 seconds before you reach the intersection", isCorrect: true },
           { text: "2 car lengths before reaching the intersection", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "BEFORE PASSING ANOTHER VEHICLE YOU SHOULD:",
@@ -399,7 +399,7 @@ const quizQuestions = [
           { text: "Give the proper turn signal to show you are changing lanes", isCorrect: true },
           { text: "Sound your horn to get the drivers attention", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOUR BLIND SPOT IS THE AREA OF THE ROAD:",
@@ -409,7 +409,7 @@ const quizQuestions = [
           { text: "You see in your rearview mirror", isCorrect: false },
           { text: "You see in your side mirror", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "BEFORE PASSING ANOTHER VEHICLE, YOU SHOULD SIGNAL:",
@@ -419,7 +419,7 @@ const quizQuestions = [
           { text: "After changing lanes", isCorrect: false },
           { text: "Early enough so others know your plans", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "BEFORE CHANGING LANES ON A MULTI-LANE HIGHWAY YOU SHOULD:",
@@ -429,7 +429,7 @@ const quizQuestions = [
           { text: "Reduce your speed", isCorrect: false },
           { text: "Check your mirrors and blind spots", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN YOU PARK ON THE ROADWAY, YOU SHOULD:",
@@ -439,7 +439,7 @@ const quizQuestions = [
           { text: "Keep your turn signal on", isCorrect: false },
           { text: "Turn your lights on", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "BEFORE BACKING UP, YOU SHOULD:",
@@ -449,7 +449,7 @@ const quizQuestions = [
           { text: "Open your door to see if it is clear to proceed", isCorrect: false },
           { text: "Turn your head and look through the rear window", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "TO HELP AVOID CRASHES, YOU SHOULD:",
@@ -459,7 +459,7 @@ const quizQuestions = [
           { text: "Drive on side streets and back roads", isCorrect: false },
           { text: "Avoid driving during rush hour", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE DRIVER IS:",
@@ -479,7 +479,7 @@ const quizQuestions = [
           { text: "Sound your horn to warn others", isCorrect: true },
           { text: "Use your four-way flashers", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN TRAVELLING BELOW 40 MILES AN HOUR ON A LIMITED ACCESS HIGHWAY, YOU SHOULD:",
@@ -489,7 +489,7 @@ const quizQuestions = [
           { text: "Sound your horn to warn others", isCorrect: false },
           { text: "Use your four-way flashers", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU SHOULD HONK YOUR HORN WHEN YOU:",
@@ -499,7 +499,7 @@ const quizQuestions = [
           { text: "See a child who is about to run into the street", isCorrect: true },
           { text: "Are parallel parking", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU MUST USE YOUR HEADLIGHTS WHEN OTHER VEHICLES ARE NOT VISIBLE FROM ___ FEET AWAY:",
@@ -509,7 +509,7 @@ const quizQuestions = [
           { text: "1800", isCorrect: false },
           { text: "1200", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF A VEHICLE USING HIGH BEAMS COMES TOWARDS YOU, YOU SHOULD LOOK TOWARDS ___ OF THE ROAD:",
@@ -519,7 +519,7 @@ const quizQuestions = [
           { text: "The right", isCorrect: true},
           { text: "The left", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF A VEHICLE USING HIGH BEAMS COMES TOWARD YOU, YOU SHOULD:",
@@ -529,7 +529,7 @@ const quizQuestions = [
           { text: "Sound your horn", isCorrect: false},
           { text: "Flash your high beams", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU MAY HONK YOUR HORN WHEN YOU:",
@@ -539,7 +539,7 @@ const quizQuestions = [
           { text: "Have lost control of your car", isCorrect: true },
           { text: "Are passing a bicylist", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOUR BRAKE LIGHTS TELL OTHER DRIVERS THAT YOU:",
@@ -549,7 +549,7 @@ const quizQuestions = [
           { text: "Are changing lanes", isCorrect: false },
           { text: "Are slowing down or stopping", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "BEFORE TURNING YOU SHOULD:",
@@ -559,7 +559,7 @@ const quizQuestions = [
           { text: "Increase your speed", isCorrect: false },
           { text: "Change lanes", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE DRIVER IS:",
@@ -569,7 +569,7 @@ const quizQuestions = [
           { text: "Stopping", isCorrect: false },
           { text: "Turning right", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg" , // Optional image URL
+        imageUrl: "data/images/white.jpg" , // Optional image URL
       },
       {
         questionText: "THE DRIVER IS:",
@@ -579,7 +579,7 @@ const quizQuestions = [
           { text: "Slowing", isCorrect: false },
           { text: "Turning right", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg" , // Optional image URL
+        imageUrl: "data/images/white.jpg" , // Optional image URL
       },
       {
         questionText: "IF ANOTHER CAR IS IN DANGER OF HITTING YOU, YOU SHOULD:",
@@ -589,7 +589,7 @@ const quizQuestions = [
           { text: "Use your emergency lights", isCorrect: false },
           { text: "Flash your headlights", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU BEGIN TO FEEL TIRED WHILE DRIVING, THE BEST THING TO DO IS:",
@@ -599,7 +599,7 @@ const quizQuestions = [
           { text: "Stop driving", isCorrect: true},
           { text: "Turn on the radio", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE EFFECT THAT LACK OF SLEEP HAS ON YOUR SAFE DRIVING ABILITY IS THE SAME AS:",
@@ -609,7 +609,7 @@ const quizQuestions = [
           { text: "The effect that anger has", isCorrect: false },
           { text: "The effect that driving with teenagers has", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "TEENAGERS SHOULD TRY TO GET AT LEAST ___ OF SLEEP EACH NIGHT TO AVOID THE RISK OF DROWSY DRIVING CRASHES.",
@@ -619,7 +619,7 @@ const quizQuestions = [
           { text: "8 hours", isCorrect: true},
           { text: "9 hours", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF ANOTHER DRIVERS CUTS YOU OFF IN TRAFFIC, YOU SHOULD:",
@@ -629,7 +629,7 @@ const quizQuestions = [
           { text: "Flash your high beams at the driver", isCorrect: false },
           { text: "Get back at the other driver by cutting him or her off", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF SOMEONE IS DRIVING AGGRESSIVELY BEHIND YOU, YOU SHOULD:",
@@ -639,7 +639,7 @@ const quizQuestions = [
           { text: "Speed up as they are passing you", isCorrect: false },
           { text: "Block the passing lane", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "FOR AN AVERAGE PERSON, HOW MANY MINUTES DOES THE BODY NEED TO PROCESS THE ALCOHOL IN ONE DRINK?",
@@ -649,7 +649,7 @@ const quizQuestions = [
           { text: "90", isCorrect: false },
           { text: "30", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "___ LIMIT(S) YOUR CONCENTRATION, PERCEPTION, JUDGMENT AND MEMORY.",
@@ -659,7 +659,7 @@ const quizQuestions = [
           { text: "Even the smallest amount of alcohol", isCorrect: true },
           { text: "Only a blood alcohol level greater than .05", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },  
       {
         questionText: "TAKING DRUGS ALONG WITH ALCOHOL:",
@@ -669,7 +669,7 @@ const quizQuestions = [
           { text: "Lessens the effect of alcohol on your ability to drive", isCorrect: false },
           { text: "Has no effect on your general driving ability", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "AS ALCOHOL BUILDS UP IN YOUR BLOOD, IT:",
@@ -679,7 +679,7 @@ const quizQuestions = [
           { text: "Begins to metabolize itself more quickly", isCorrect: false },
           { text: "Decreases your driving errors", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "AS YOUR BLOOD ALCOHOL LEVEL IS .04, YOU:",
@@ -689,7 +689,7 @@ const quizQuestions = [
           { text: "Can be very sure that you will drive safely", isCorrect: false },
           { text: "Should drink plenty of coffee before getting behind the wheel of your car", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN YOU HEAR A FIRE ENGINE SIREN, YOU MUST:",
@@ -699,7 +699,7 @@ const quizQuestions = [
           { text: "Pull over to the side of the road and stop", isCorrect: true },
           { text: "Speed up and take the nearest exit", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU HAVE A TIRE BLOWOUT, YOU SHOULD:",
@@ -709,7 +709,7 @@ const quizQuestions = [
           { text: "Continue driving until you reach a garage", isCorrect: false },
           { text: "Brake hard and stop the car immediately", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU CAR BREAKS DOWN ON A HIGHWAY, YOU SHOULD:",
@@ -719,7 +719,7 @@ const quizQuestions = [
           { text: "Sound your horn at passing motorists", isCorrect: false },
           { text: "Flash your headlights at oncoming traffic", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN YOU SEE AN EMERGENCY VEHICLE WITH FLASHING LIGHTS, YOU MUST:",
@@ -729,7 +729,7 @@ const quizQuestions = [
           { text: "Pull to the curb and stop", isCorrect: true},
           { text: "Stop exactly where you are", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING ON A ONE WAY STREET AND AN EMERGENCY VEHICLE WITH FLASHING VEHICLES IS BEHIND YOUR CAR, YOU SHOULD:",
@@ -739,7 +739,7 @@ const quizQuestions = [
           { text: "Speed up and take the nearest exit", isCorrect: false },
           { text: "Slow down until the vehicle passes you", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "AFTER AN EMERGENCY VEHICLE PASSES YOU WITH ITS SIREN ON, YOU SHOULD:",
@@ -749,7 +749,7 @@ const quizQuestions = [
           { text: "Avoid driving closer than 500 feet behind the emergency vehicle", isCorrect: true },
           { text: "Drive near the curb very slowly", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "CRASHES IN WORK ZONES ARE MOST COMMONLY THE RESULT OF:",
@@ -759,7 +759,7 @@ const quizQuestions = [
           { text: "Loss of steering control after driving over wet paint", isCorrect: false },
           { text: "Carelessness and speeding", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING THROUGH A WORK ZONE, IT IS A GOOD SAFETY PRACTICE TO:",
@@ -769,7 +769,7 @@ const quizQuestions = [
           { text: "Turn on your cruise control", isCorrect: false },
           { text: "Lengthen your usual following distance- by double", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "ON TWO-LANE, TWO-WAY  STREETS ON HIGHWAYS, YOU SHOULD START LEFT TURNS:",
@@ -779,7 +779,7 @@ const quizQuestions = [
           { text: "In the center of the lane", isCorrect: false },
           { text: "Anywhere in the lane", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "TO TURN LEFT ON MULTI-LANE STREETS AND HIGHWAYS, YOU SHOULD START FROM:",
@@ -789,7 +789,7 @@ const quizQuestions = [
           { text: "The left lane", isCorrect: true },
           { text: "Any lane", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "ON A TWO-LANE ROAD, YOU MAY PASS ANOTHER VEHICLE ON THE RIGHT WHEN:",
@@ -799,7 +799,7 @@ const quizQuestions = [
           { text: "Never", isCorrect: false },
           { text: "The driver you are passing is making a left turn", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "TO PASS A SLOWER-MOVING VEHICLE ON A TWO-LANE ROAD YOU MUST:",
@@ -809,7 +809,7 @@ const quizQuestions = [
           { text: "Use the shoulder", isCorrect: false },
           { text: "Use the lane that belongs to oncoming traffic", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THESE PAVEMENT MARKINGS TELL YOU THAT AT THE INTERSECTION AHEAD:",
@@ -819,7 +819,7 @@ const quizQuestions = [
           { text: "The center lane mergers into one lane", isCorrect: false },
           { text: "Center lane traffic must turn left", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg",  // Optional image URL
+        imageUrl: "data/images/white.jpg",  // Optional image URL
       },
       {
         questionText: "THE MOST IMPORTANT THING TO REMEMBER ABOUT SPEED MANAGMENT AND CURVES IS TO:",
@@ -829,7 +829,7 @@ const quizQuestions = [
           { text: "Accelerate gently before you enter the curve", isCorrect: false },
           { text: "Drive at the posted speed limit of the roadway, before, throughout, and after the curve", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "DRIVERS ENTERING A ROUNDABOUT OR TRAFFIC CIRCLE:",
@@ -839,7 +839,7 @@ const quizQuestions = [
           { text: "Have the right of way if they arive first", isCorrect: false },
           { text: "Have the right of way if there are two lanes", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE LAW GIVES ___ THE RIGHT OF WAY AT INTERESCTIONS.",
@@ -849,7 +849,7 @@ const quizQuestions = [
           { text: "Drivers going straight", isCorrect: false },
           { text: "Drivers turning right", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "AT AN INTERSECTION WITH A STOP SIGN, YOU SHOULD STOP AND",
@@ -859,7 +859,7 @@ const quizQuestions = [
           { text: "Look right first, then left, then right again", isCorrect: false },
           { text: "Look left first, then right, then left again", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "TO TURN LEFT ON MULTI-LANE STREETS AND HIGHWAYS, YOU SHOULD START FROM:",
@@ -869,7 +869,7 @@ const quizQuestions = [
           { text: "The left lane", isCorrect: true},
           { text: "Any lane", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN ENTERING A HIGHWAY FROM AN ENTRANCE RAMP, YOU SHOULD GENERALLY:",
@@ -879,7 +879,7 @@ const quizQuestions = [
           { text: "Stop first, then slowly enter traffic", isCorrect: false },
           { text: "Accelerate to the speed of traffic", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN EXITING A HIGHWAY, YOU SHOULD SLOW DOWN:",
@@ -889,7 +889,7 @@ const quizQuestions = [
           { text: "Once you have moved into the exit lane", isCorrect: true },
           { text: "When you first see the exit sign", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING ON A FREEWAY ENTRANCE RAMP, YOU SHOULD LOOK FOR A GAP IN FREEWAY TRAFFIC BY:",
@@ -899,7 +899,7 @@ const quizQuestions = [
           { text: "Looking in both rearview and sideview mirrors", isCorrect: false },
           { text: "Looking in your mirrors and turning your head to look over your shoulder", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU WANT TO GET OFF OF A FREEWAY, BUT YOU MISSED YOUR EXIT, YOU SHOULD:",
@@ -909,7 +909,7 @@ const quizQuestions = [
           { text: "Put onto the shoulder and back your car to the exit", isCorrect: false },
           { text: "Flag down a police officer for an escort back to your exit", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU ARE WAITING TO TURN LEFT AT A MULTILANE INTERSECTION, AND OPPOSING TRAFFIC IS BLOCKING YOUR VIEW, YOU SHOULD:",
@@ -919,7 +919,7 @@ const quizQuestions = [
           { text: "Wait for the opposing driver to wave you across the intersection", isCorrect: false },
           { text: "Edge your car into each lane of opposing traffic as soon as it clears", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN NO SIGNS, SIGNALS OR POLICE TELL YOU WHAT TO DO AT AN INTERSECTION, THE LAW STATES THAT:",
@@ -929,7 +929,7 @@ const quizQuestions = [
           { text: "Drivers going straight must yield to drivers turning left at an intersection", isCorrect: false },
           { text: "Drivers turning left must yield to drivers going straight through an intersection", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: `"HIGHWAY HYPNOSIS" IS A DRIVER CONDITION THAT CAN RESULT FROM:`,
@@ -939,7 +939,7 @@ const quizQuestions = [
           { text: "Too much sleep the night before your trip", isCorrect: false },
           { text: "Short trips on expressways", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN PASSING ON MULTI-LANE HIGHWAYS:",
@@ -949,7 +949,7 @@ const quizQuestions = [
           { text: "Watch for oncoming traffic", isCorrect: false },
           { text: "There is no need to signal", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: `"THE "FOUR-SECOND RULE" REFERS TO HOW ONE SHOULD:`,
@@ -959,7 +959,7 @@ const quizQuestions = [
           { text: "Follow another car", isCorrect: true },
           { text: "Cross an intersection", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IT IS BEST TO KEEP A SPACE CUSHION:",
@@ -969,7 +969,7 @@ const quizQuestions = [
           { text: "Only in front of the vehicle", isCorrect: false },
           { text: "On all sides of the vehicle", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "ALLOWING A SPACE CUSHION IS IMPORTANT BECAUSE IT:",
@@ -979,7 +979,7 @@ const quizQuestions = [
           { text: "Keeps traffic flowing at a safe space", isCorrect: false },
           { text: "Keep other drivers apart", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "ALLOW A LARGER SPACE CUSHION WHEN STOPPING:",
@@ -989,7 +989,7 @@ const quizQuestions = [
           { text: "At a stop sign", isCorrect: false },
           { text: "At a toll plaza", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN MAKING A TURN, YOU MUST ___ YOUR SPEED:",
@@ -999,7 +999,7 @@ const quizQuestions = [
           { text: "Vary", isCorrect: false },
           { text: "Reduce", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING IN TRAFFIC, IT IS SAFEST TO:",
@@ -1009,7 +1009,7 @@ const quizQuestions = [
           { text: "Drive slower than the flow of traffic", isCorrect: false },
           { text: "Drive with the flow of traffic", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE MAXIMUM SPEED LIMIT IN THIS STATE IS ___ MILES PER HOUR:",
@@ -1019,7 +1019,7 @@ const quizQuestions = [
           { text: "70", isCorrect: true },
           { text: "60", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "DRIVE BELOW THE POSTED SPEED LIMIT WHEN:",
@@ -1029,7 +1029,7 @@ const quizQuestions = [
           { text: "Entering a highway where there are other cars", isCorrect: false },
           { text: "You are on a four lane road", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE AMOUNT OF SPACE YOU NEED TO CROSS TRAFFIC DEPENDS ON THE:",
@@ -1039,7 +1039,7 @@ const quizQuestions = [
           { text: "Use of your turn signals", isCorrect: false },
           { text: "Cars behind you", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOUR ABILITY TO STOP IS AFFECTED BY:",
@@ -1049,7 +1049,7 @@ const quizQuestions = [
           { text: "The time of day", isCorrect: false },
           { text: "The condition of the road", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHICH OF THE FOLLOWING IS TRUE ABOUT THE SPEED OF WHICH YOU TRAVEL:",
@@ -1059,7 +1059,7 @@ const quizQuestions = [
           { text: "The speed limit is always a safe speed", isCorrect: false },
           { text: "Accelerating is always dangerous", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "TO PREPARE FOR ANYTHING COMING UP IN THE ROAD AHEAD, YOU SHOULD:",
@@ -1069,7 +1069,7 @@ const quizQuestions = [
           { text: "Drive with your left foot resting lightly on the break pedal", isCorrect: false },
           { text: "Maintain focus toward the middle of the road", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "AT HIGHWAY SPPEDS, ON A DRY ROAD, A SAFE FOLLOWING DISTANCE IS AT LEAST:",
@@ -1079,7 +1079,7 @@ const quizQuestions = [
           { text: "4 seconds of following distance from the car ahead of you", isCorrect: false },
           { text: "2 car lengths of following distance from the car ahead of you", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: `WHAT CAN YOU DO TO AVOID THE NEED TO MAKE EMERGENCY(OR "PANIC") STOPS WHILE DRIVING IN TRAFFIC?`,
@@ -1089,7 +1089,7 @@ const quizQuestions = [
           { text: "Drive in the right lane only", isCorrect: false },
           { text: "Drive slower in the flow of traffic", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN FACED WITH ONE ONCOMING CAR TO THE LEFT AND A BICYCLIST TO THE RIGHT, YOU SHOULD:",
@@ -1099,7 +1099,7 @@ const quizQuestions = [
           { text: "Let the car pass and then pass the bike", isCorrect: true },
           { text: "Pass the bike quickly", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF AN ONCOMING DRIVER IS HEADING TOWARD YOU IN YOUR LANE, YOU SHOULD:",
@@ -1109,7 +1109,7 @@ const quizQuestions = [
           { text: "Steer right, blow your horn, and brake", isCorrect: true },
           { text: "Stay in the center of your lane, blow your horn, and brake", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF THE REAR OF YOUR VEHICLE STARTS TO SKID LEFT, YOU SHOULD:",
@@ -1119,7 +1119,7 @@ const quizQuestions = [
           { text: "Accelerate", isCorrect: false },
           { text: "Steer right", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE MOST EFFECTIVE THING YOU CAN DO TO REDUCE YOUR RISK OF GETTING INJURED OR KILLED IN A TRAFFIC CRASH:",
@@ -1129,7 +1129,7 @@ const quizQuestions = [
           { text: "Stay in the right lane to multi-lane highways", isCorrect: false },
           { text: "Limit your driving to times between 3:00pm and 6:00pm", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING ON SLICK ROADS, YOU SHOULD:",
@@ -1139,7 +1139,7 @@ const quizQuestions = [
           { text: "Accelerate quickly", isCorrect: false },
           { text: "Brake hard", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHICH OF THE FOLLOWING IS TRUE ABOUT DRIVING ON A WET ROADWAY:",
@@ -1149,7 +1149,7 @@ const quizQuestions = [
           { text: "Deeper water is less dangerous", isCorrect: false },
           { text: "As you decrease your speed, the roadway becomes more slippery", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING ON WET ROADS YOU SHOULD:",
@@ -1159,7 +1159,7 @@ const quizQuestions = [
           { text: "Drive 5 to 10 miles below the speed limit", isCorrect: true },
           { text: "Stay close to the vehicle ahead", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING ON SLIPPERY ROADS, YOU SHOULD:",
@@ -1169,7 +1169,7 @@ const quizQuestions = [
           { text: "Increase your following distance", isCorrect: true},
           { text: "Avoid crossing at bridges or intersections", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING ON WET ROADS, YOU SHOULD:",
@@ -1179,7 +1179,7 @@ const quizQuestions = [
           { text: "Not be concerned about following distance", isCorrect: false },
           { text: "Maintain the 4-second follwing distance rule", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "ROADS FREEZE MORE QUICKLY WHEN THEY ARE:",
@@ -1189,7 +1189,7 @@ const quizQuestions = [
           { text: "In the sun", isCorrect: false },
           { text: "Shaded", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "ROADS BECOME MORE SLIPPERY:",
@@ -1199,7 +1199,7 @@ const quizQuestions = [
           { text: "For the fist 10 or 15 minutes of a rain storm", isCorrect: true },
           { text: "Right after the rain has stopped", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "HYDROPLANING IS USUALLY CAUSED BY:",
@@ -1209,7 +1209,7 @@ const quizQuestions = [
           { text: "Sudden turns", isCorrect: false },
           { text: "Excessive speed", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "HYDROPLANING CAN BE HELPED BY DRIVING:",
@@ -1219,7 +1219,7 @@ const quizQuestions = [
           { text: "Slower", isCorrect: true },
           { text: "Through deep watter", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING IN FOG, YOU SHOULD USE YOUR ___:",
@@ -1229,7 +1229,7 @@ const quizQuestions = [
           { text: "Parking lights", isCorrect: false },
           { text: "Hazard flashers", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "COMPARED TO DRIVING DURING THE DAY, DRIVING AT NIGHT IS:",
@@ -1239,7 +1239,7 @@ const quizQuestions = [
           { text: "No more or less dangerous", isCorrect: true},
           { text: "Easier on your eyes", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "ANYTHING THAT REQUIRES YOU TO ___ COULD CAUSE YOU TO CRASH.",
@@ -1249,7 +1249,7 @@ const quizQuestions = [
           { text: "Take your attention away from the driving task", isCorrect: false },
           { text: "All of the above", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "DISTRACTED DRIVERS ARE AT A GREATER RISK OF A CRASH WHEN THEY ARE USING WHICH OF THE FOLLOWING:",
@@ -1259,7 +1259,7 @@ const quizQuestions = [
           { text: "Cell Phone", isCorrect: false },
           { text: "All of the above", isCorrect: true},
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN YOU ARE IN A LINE OF TRAFFIC THAT IS CROSSING A RAILROAD TRACK THAT HAS NO SIGNALS OR GATES:",
@@ -1269,7 +1269,7 @@ const quizQuestions = [
           { text: "You need to make sure there is space to get all the way across the tracks without stopping, before you start to cross", isCorrect: true },
           { text: "All of the above", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN APPROACHING A STOPPED SCHOOL BUS WITH ITS RED LIGHTS FLASHING AND ITS STOP ARM EXTENDED, YOU MUST:",
@@ -1279,7 +1279,7 @@ const quizQuestions = [
           { text: "Stop and remain stopped until it appears safe to proceed", isCorrect: false },
           { text: "Stop and remain stopped until the red lights stop flashing and the stop arm has been withdrawn", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN YOU SEE THIS SIGN, YOU MUST:",
@@ -1289,7 +1289,7 @@ const quizQuestions = [
           { text: "Slow down completely and wait for a green light", isCorrect: false },
           { text: "Slow down and check for traffic", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THIS IS THE SHAPE AND COLOR OF A ___ SIGN:",
@@ -1299,7 +1299,7 @@ const quizQuestions = [
           { text: "Yield", isCorrect: true },
           { text: "Do not enter", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1309,7 +1309,7 @@ const quizQuestions = [
           { text: "Yield ", isCorrect: false },
           { text: "Do not enter", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1319,7 +1319,7 @@ const quizQuestions = [
           { text: "No right turn", isCorrect: false },
           { text: "No turning", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1329,7 +1329,7 @@ const quizQuestions = [
           { text: "No right turn", isCorrect: true },
           { text: "No turning", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1339,7 +1339,7 @@ const quizQuestions = [
           { text: "The road that you are on intersects with a divided highway", isCorrect: true },
           { text: "Designates an overpass above a divided highway", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU NEED TO USE EXTRA CAUTION WHEN DRIVING NEAR A PEDESTRIAN USING A WHITE CANE BECAUSE:",
@@ -1349,7 +1349,7 @@ const quizQuestions = [
           { text: "They are blind", isCorrect: true },
           { text: "They have a walking problem", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN DRIVING NEAR A BLIND PEDESTRIAN WHO IS CARRYING A WHITE CANE OR USING A GUIDE DOG, YOU SHOULD:",
@@ -1359,7 +1359,7 @@ const quizQuestions = [
           { text: "Proceed normally", isCorrect: false },
           { text: "Drive away quickly", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },  
       {
         questionText: "IF THERE ARE NO SIGNALS AT RAILROAD CROSSINGS, YOU SHOULD:",
@@ -1369,7 +1369,7 @@ const quizQuestions = [
           { text: "Proceed through the crossing at a normal rate", isCorrect: false },
           { text: "Proceed slowly over the tracks", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU MAY DRIVE AROUND THE GATES AT A RAILROAD CROSSING:",
@@ -1379,7 +1379,7 @@ const quizQuestions = [
           { text: "When the lights have stopped flashing", isCorrect: false },
           { text: "When other drivers drive around the gates", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF YOU SEE THIS SIGN ABOVE YOUR LANE, YOU:",
@@ -1389,7 +1389,7 @@ const quizQuestions = [
           { text: "May stay in this lane and continue through the interchange", isCorrect: false },
           { text: "Must exit the freeway if you stay in this lane", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "HIGHWAY AND EXPRESSWAY GUIDE SIGNS ARE:",
@@ -1399,7 +1399,7 @@ const quizQuestions = [
           { text: "Yellow with black letters", isCorrect: false },
           { text: "Red with white letters", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THIS SIGNED IS USED TO WARN DRIVERS ABOUT:",
@@ -1409,7 +1409,7 @@ const quizQuestions = [
           { text: "Road curves ahead", isCorrect: true },
           { text: "Changes in traffic lanes", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/curves2.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN TELLS YOU THAT:",
@@ -1419,7 +1419,7 @@ const quizQuestions = [
           { text: "There are a series of curves ahead", isCorrect: true },
           { text: "The road may be slippery when wet", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/curves.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1429,7 +1429,7 @@ const quizQuestions = [
           { text: "S curved ahead", isCorrect: false },
           { text: "Slippery when wet", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/wet.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN INDICATES THAT:",
@@ -1439,7 +1439,7 @@ const quizQuestions = [
           { text: "A logging road is ahead", isCorrect: false },
           { text: "There are trucks on the hill", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/hill.png", // Optional image URL
       },
       {
         questionText: "A YELLOW AND BLACK DIAMOND-SHAPED SIGN:",
@@ -1449,7 +1449,7 @@ const quizQuestions = [
           { text: "Tells you about traffic laws and regulations", isCorrect: false },
           { text: "Tells you about road constructions ahead", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/diamond.png", // Optional image URL
       },
       {
         questionText: "THE SIGN WITH THIS SHAPE AND COLOR IS A ___ SIGN:",
@@ -1459,7 +1459,7 @@ const quizQuestions = [
           { text: "Railroad crossing", isCorrect: false },
           { text: "Stop", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/no-pass.png", // Optional image URL
       },
       {
         questionText: "WHICH OF THESE SIGNS IS USED TO SHOW THE END OF A DIVIDED HIGHWAY:",
@@ -1469,7 +1469,7 @@ const quizQuestions = [
           { text: "3", isCorrect: false },
           { text: "1", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/divided-highway2.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN IS USED TO WARN DRIVERS ABOUT:",
@@ -1479,7 +1479,7 @@ const quizQuestions = [
           { text: "Right turn", isCorrect: false },
           { text: "Lane change", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/merge.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN SHOWS ONE TYPE OF:",
@@ -1489,7 +1489,7 @@ const quizQuestions = [
           { text: "Lane change", isCorrect: false },
           { text: "Road curve", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/intersection2.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN SHOWS ONE TYPE OF:",
@@ -1499,7 +1499,7 @@ const quizQuestions = [
           { text: "Lane change", isCorrect: false },
           { text: "Road curve", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/intersection.png", // Optional image URL
       },
       {
         questionText: "WHAT SHOULD YOU BE THE MOST CONCERNED ABOUT WHEN YOU SEE THIS SIGN:",
@@ -1509,7 +1509,7 @@ const quizQuestions = [
           { text: "Hydroplaning, if the shoulder has water on it", isCorrect: false },
           { text: "Losing control of your vehicle, if you drift onto the shoulder, because of a drop off", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/concern.png", // Optional image URL
       },
       {
         questionText: "WHAT IS THE MEANING OF THIS SIGN:",
@@ -1519,7 +1519,7 @@ const quizQuestions = [
           { text: "The traffic signal ahead is green", isCorrect: false },
           { text: "There is a traffic signal ahead", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/traffic-light2.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1529,7 +1529,7 @@ const quizQuestions = [
           { text: "One-way street ends", isCorrect: false },
           { text: "Divided highway begins", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/divided-highway.png", // Optional image URL
       },
       {
         questionText: "FROM TOP TO BOTTOM, THE FOLLOWING IS THE PROPER ORDER FOR TRAFFIC LIGHTS:",
@@ -1539,7 +1539,7 @@ const quizQuestions = [
           { text: "Green, red, yellow", isCorrect: false },
           { text: "Green, yellow, red", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/traffic-light.png", // Optional image URL
       },
       {
         questionText: "IF A GREEN ARROW TURNS INTO A GREEN LIGHT, YOU:",
@@ -1549,7 +1549,7 @@ const quizQuestions = [
           { text: "Still have the right of way to turn", isCorrect: false },
           { text: "No longer have to turn the way the arrow indicates", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "A STEADY YELLOW LIGHT AT AN INTERSECTIONS MEANS:",
@@ -1559,7 +1559,7 @@ const quizQuestions = [
           { text: "Slow down and prepare to stop", isCorrect: true },
           { text: "Stop", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "A FLASHING YELLOW ARROW MEANS THAT YOU:",
@@ -1569,7 +1569,7 @@ const quizQuestions = [
           { text: "Stop and proceed when a green light appears", isCorrect: true },
           { text: "Stop and proceed when the way is clear", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "A FLASHING YELLOW LIGHT MEANS THAT YOU SHOULD:",
@@ -1579,7 +1579,7 @@ const quizQuestions = [
           { text: "Stop and proceed when a green light appears", isCorrect: false },
           { text: "Stop and proceed when the way is clear", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU MUST STOP WHEN YOU SEE:",
@@ -1589,7 +1589,7 @@ const quizQuestions = [
           { text: "Yellow arrow", isCorrect: false },
           { text: "Flashing yellow light", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "A STEADY GREEN LIGHT AT AN INTERSECTION MEANS THAT YOU:",
@@ -1599,7 +1599,7 @@ const quizQuestions = [
           { text: "May drive through the intersection if the road is clear", isCorrect: true },
           { text: "May not turn right", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "A STEADY YELLOW LIGHT MEANS THAT A ___ LIGHT WILL SOON APPEAR:",
@@ -1609,7 +1609,7 @@ const quizQuestions = [
           { text: "Steady red", isCorrect: true },
           { text: "Flashing red", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU MAY CONTINUE CAREFULLY THROUGH A YELLOW LIGHT IF:",
@@ -1619,7 +1619,7 @@ const quizQuestions = [
           { text: "You are turning right", isCorrect: true },
           { text: "You are within the intersection", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU MAY TURN LEFT AT A RED LIGHT IF:",
@@ -1629,7 +1629,7 @@ const quizQuestions = [
           { text: "You are turning from a one-way street onto another one-way street", isCorrect: true },
           { text: "The car in front of you turns left", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "IF A TRAFFIC LIGHT IS BROKEN OR NOT FUNCTIONING YOU SHOULD:",
@@ -1639,7 +1639,7 @@ const quizQuestions = [
           { text: "Continue as if it were a four-way stop sign", isCorrect: true },
           { text: "Continue as you normally would", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU MAY TURN RIGHT ON RED IF YOU:",
@@ -1649,7 +1649,7 @@ const quizQuestions = [
           { text: "Are in the left lane", isCorrect: false },
           { text: "Slow down first", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHEN MAKING A RIGHT TURN ON A GREEN LIGHT, YOU MUST:",
@@ -1659,7 +1659,7 @@ const quizQuestions = [
           { text: "Yield to pedestrians", isCorrect: true },
           { text: "Increase your normal driving speed", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE SPEED LIMIT IS ___ MILES PER HOUR WHEN THE YELLOW LIGHTS ARE FLASHING ON THE SCHOOL ZONE SPEED SIGN.",
@@ -1669,7 +1669,7 @@ const quizQuestions = [
           { text: "20", isCorrect: false },
           { text: "35", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "A FLASHING RED LIGHT AT A RAILROAD CROSSING MEANS:",
@@ -1679,7 +1679,7 @@ const quizQuestions = [
           { text: "Proceed with caution", isCorrect: false },
           { text: "You have the right-of-way", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/green-arrow.png", // Optional image URL
       },
       {
         questionText: "THIS GREEN ARROW ON A LANE USE CONTROL SIGNAL MEANS THAT:",
@@ -1689,7 +1689,7 @@ const quizQuestions = [
           { text: "You have the right-of-way", isCorrect: false },
           { text: "You must merge into this lane", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1699,7 +1699,7 @@ const quizQuestions = [
           { text: "School crossing ahead", isCorrect: false },
           { text: "Flagger ahead", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/flagger.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS THAT:",
@@ -1709,7 +1709,7 @@ const quizQuestions = [
           { text: "Children are at play ahead", isCorrect: false },
           { text: "There is a pedestrian crosswalk ahead", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/workers-nearby.png", // Optional image URL
       },
       {
         questionText: "WHEN AN ARROW PANEL IN A WORK ZONE SHOWS EITHER OF THE FOLLOWING PATTERNS, IT MEANS:",
@@ -1719,7 +1719,7 @@ const quizQuestions = [
           { text: "Changes lanes immediately", isCorrect: false },
           { text: "Turn your radio on to a station that gives traffic updates", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/bulbs.png", // Optional image URL
       },
       {
         questionText: "THE CENTER LANE IN THE ILLUSTRATION IS USED FOR:",
@@ -1729,7 +1729,7 @@ const quizQuestions = [
           { text: "Passing only", isCorrect: false },
           { text: "Emergency vehicles only", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/center-lane.png", // Optional image URL
       },
       {
         questionText: "YOU MAY PASS IF THE LINE DIVIDING TWO LANES IS A ___ LINE.",
@@ -1739,7 +1739,7 @@ const quizQuestions = [
           { text: "Solid yellow", isCorrect: false },
           { text: "Solid white", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "LANES OF TRAFFIC MOVING IN THE SAME DIRECTION ARE DIVIDED BY ___ LINES.",
@@ -1749,7 +1749,7 @@ const quizQuestions = [
           { text: "Red", isCorrect: false },
           { text: "Black", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU MAY NOT PASS ANOTHER CAR ON EITHER SIDE OF A ___ CENTERLINE:",
@@ -1759,7 +1759,7 @@ const quizQuestions = [
           { text: "Double solid yellow", isCorrect: true },
           { text: "Single broken white", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "YOU MAY CROSS SOLID YELLOW LINES:",
@@ -1769,7 +1769,7 @@ const quizQuestions = [
           { text: "At any time", isCorrect: false },
           { text: "When making turns", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE ROAD EDGE ON THE RIGHT SIDE IS MARKED BY A ___ LINE:",
@@ -1779,7 +1779,7 @@ const quizQuestions = [
           { text: "Solid white", isCorrect: true },
           { text: "Broken yellow audio", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },  
       {
         questionText: "LANES OF TRAFFIC MOVING IN THE OPPOSITE DIRECTION ARE DIVIDED BY ___ LINES.",
@@ -1789,7 +1789,7 @@ const quizQuestions = [
           { text: "Black", isCorrect: false },
           { text: "Yellow", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "WHN YOU SEE THIS BLACK AND YELLOW SIGN, IT MEANS:",
@@ -1799,7 +1799,7 @@ const quizQuestions = [
           { text: "Slow down because the road ahead changes direction at an extreme angle", isCorrect: true },
           { text: "There is a cross road ahead to the right", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/black-n-yellow.jpg", // Optional image URL
       },
       {
         questionText: "WHEN YOU SEE THIS SIGN, IT MEANS:",
@@ -1809,7 +1809,7 @@ const quizQuestions = [
           { text: "The road is curving sharply to the left", isCorrect: true },
           { text: "There is a merge point ahead", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/curve-left.jpg", // Optional image URL
       },
       {
         questionText: "AT AN INTERSECTION  CONTROLLED BY A STOP SIGN, IF YOU CAN'T GET A GOOD VIEW OF CROSS-STREET TRAFFIC WHEN YOU STOP BEHIND THE WHITE TOP BAR PAINTED ON THE PAVEMENT, YOU SHOULD:",
@@ -1819,7 +1819,7 @@ const quizQuestions = [
           { text: "Put down your windows, listen for traffic, and then proceed", isCorrect: false },
           { text: "Pull forward slowly, check for traffic and pedestrians, and proceed when clear", isCorrect: true },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/white.jpg", // Optional image URL
       },
       {
         questionText: "THE POSTED SPEED LIMITS SHOW:",
@@ -1829,7 +1829,7 @@ const quizQuestions = [
           { text: "The maximum safe speed under ideal road and weather conditions", isCorrect: true },
           { text: "The maximum safe speed under all road conditions", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/speed-limit-20.png", // Optional image URL
       },
       {
         questionText: "A HIGHWAY WITH TWO-WAY TRAFFIC IS MARKED BY WHICH OF THESE SIGNS?",
@@ -1839,7 +1839,7 @@ const quizQuestions = [
           { text: "3", isCorrect: true },
           { text: "4", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "'data/images/two-way-traffic-highway.png'", // Optional image URL
       },
       {
         questionText: "FROM THE CENTER LANE, WHAT MANEUVERS CAN YOU PERFORM?",
@@ -1849,7 +1849,7 @@ const quizQuestions = [
           { text: "Pass slower-moving traffic", isCorrect: false },
           { text: "All of the above", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/center-lane-maneuvers.png", // Optional image URL
       },
       {
         questionText: "WHICH OF THESE SIGNS MEANS THAT DRIVERS SHOULD KEEP TO THE RIGHT?",
@@ -1859,12 +1859,8 @@ const quizQuestions = [
           { text: "3", isCorrect: false },
           { text: "4", isCorrect: false },
         ],
-        imageUrl: "data/images/black.jpg", // Optional image URL
+        imageUrl: "data/images/to-the-right.png", // Optional image URL
       },
-
-
-
-
    
 
   ];

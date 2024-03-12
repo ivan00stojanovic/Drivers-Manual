@@ -96,17 +96,17 @@ nextQuestionBtn.addEventListener('click', function() {
     });
   });
   
-
+// console.log( quizQuestions[44].options[2])
   
 let correctAnswerIndex
-const questionImage = document.querySelector('.question-img')
+let questionImage = document.querySelector('.question-img')
 
 
   const displayQuestion = (question) => {
     // Set the question text
     questionh1.innerHTML = question.questionText;
-    // questionImage = /*question.imageUrl*/ 'data/images/black.jpg'
-
+    questionImage.src  = /*question.imageUrl */  'data/images/curves2.png' 
+    console.log(questionImage)
   
     // Shuffle the options for this question
     const shuffledOptions = shuffleOptions([...question.options]);
