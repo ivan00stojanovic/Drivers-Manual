@@ -154,13 +154,6 @@ optionsArray.forEach((option, index) => {
           nextQuestionBtn.disabled = false
     });
 });
-    
-    
-    // Loop through the options and set the text for each button
-    // question.options.forEach((option, index) => {
-    //   optionsArray[index].textContent = option.text;
-    //   optionsArray[index].dataset.isCorrect = option.isCorrect;
-    // });
 
   const fadeAway = (btn) =>{
     btn.style.display = 'none';
