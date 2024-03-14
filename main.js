@@ -105,7 +105,7 @@ let questionImage = document.querySelector('.question-img')
   const displayQuestion = (question) => {
     // Set the question text
     questionh1.innerHTML = question.questionText;
-    questionImage.src  = /*question.imageUrl */  'data/images/curves2.png' 
+    questionImage.src  = question.imageUrl    
     console.log(questionImage)
   
     // Shuffle the options for this question

@@ -469,7 +469,7 @@ const quizQuestions = [
           { text: "Turning right", isCorrect: false },
           { text: "Opening their door", isCorrect: false },
         ],
-        imageUrl: "", // Optional image URL
+        imageUrl: "driver.png", // Optional image URL
       },
       {
         questionText: "IF YOUR TURN SIGNALS FAIL, YOU SHOULD USE ___ TO INDICATE YOU ARE TURNING",
@@ -569,7 +569,7 @@ const quizQuestions = [
           { text: "Stopping", isCorrect: false },
           { text: "Turning right", isCorrect: true },
         ],
-        imageUrl: "data/images/white.jpg" , // Optional image URL
+        imageUrl: "data/images/driver2.png" , // Optional image URL
       },
       {
         questionText: "THE DRIVER IS:",
@@ -579,7 +579,7 @@ const quizQuestions = [
           { text: "Slowing", isCorrect: false },
           { text: "Turning right", isCorrect: false },
         ],
-        imageUrl: "data/images/white.jpg" , // Optional image URL
+        imageUrl: "data/images/driver3.png" , // Optional image URL
       },
       {
         questionText: "IF ANOTHER CAR IS IN DANGER OF HITTING YOU, YOU SHOULD:",
@@ -819,7 +819,7 @@ const quizQuestions = [
           { text: "The center lane mergers into one lane", isCorrect: false },
           { text: "Center lane traffic must turn left", isCorrect: false },
         ],
-        imageUrl: "data/images/white.jpg",  // Optional image URL
+        imageUrl: "data/images/pavement.png",  // Optional image URL
       },
       {
         questionText: "THE MOST IMPORTANT THING TO REMEMBER ABOUT SPEED MANAGMENT AND CURVES IS TO:",
@@ -1289,7 +1289,7 @@ const quizQuestions = [
           { text: "Slow down completely and wait for a green light", isCorrect: false },
           { text: "Slow down and check for traffic", isCorrect: false },
         ],
-        imageUrl: "data/images/white.jpg", // Optional image URL
+        imageUrl: "data/images/stop-sign.png", // Optional image URL
       },
       {
         questionText: "THIS IS THE SHAPE AND COLOR OF A ___ SIGN:",
@@ -1299,7 +1299,7 @@ const quizQuestions = [
           { text: "Yield", isCorrect: true },
           { text: "Do not enter", isCorrect: false },
         ],
-        imageUrl: "data/images/white.jpg", // Optional image URL
+        imageUrl: "data/images/yield.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1309,7 +1309,7 @@ const quizQuestions = [
           { text: "Yield ", isCorrect: false },
           { text: "Do not enter", isCorrect: true },
         ],
-        imageUrl: "data/images/white.jpg", // Optional image URL
+        imageUrl: "data/images/no-entry.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1319,7 +1319,7 @@ const quizQuestions = [
           { text: "No right turn", isCorrect: false },
           { text: "No turning", isCorrect: false },
         ],
-        imageUrl: "data/images/white.jpg", // Optional image URL
+        imageUrl: "data/images/turn.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1329,7 +1329,7 @@ const quizQuestions = [
           { text: "No right turn", isCorrect: true },
           { text: "No turning", isCorrect: false },
         ],
-        imageUrl: "data/images/white.jpg", // Optional image URL
+        imageUrl: "data/images/right.png", // Optional image URL
       },
       {
         questionText: "THIS SIGN MEANS:",
@@ -1339,7 +1339,7 @@ const quizQuestions = [
           { text: "The road that you are on intersects with a divided highway", isCorrect: true },
           { text: "Designates an overpass above a divided highway", isCorrect: false },
         ],
-        imageUrl: "data/images/white.jpg", // Optional image URL
+        imageUrl: "data/images/divided-highway3.png", // Optional image URL
       },
       {
         questionText: "YOU NEED TO USE EXTRA CAUTION WHEN DRIVING NEAR A PEDESTRIAN USING A WHITE CANE BECAUSE:",
@@ -1369,7 +1369,7 @@ const quizQuestions = [
           { text: "Proceed through the crossing at a normal rate", isCorrect: false },
           { text: "Proceed slowly over the tracks", isCorrect: false },
         ],
-        imageUrl: "data/images/white.jpg", // Optional image URL
+        imageUrl: "data/images/railroad.png", // Optional image URL
       },
       {
         questionText: "YOU MAY DRIVE AROUND THE GATES AT A RAILROAD CROSSING:",
@@ -1389,7 +1389,7 @@ const quizQuestions = [
           { text: "May stay in this lane and continue through the interchange", isCorrect: false },
           { text: "Must exit the freeway if you stay in this lane", isCorrect: true },
         ],
-        imageUrl: "data/images/white.jpg", // Optional image URL
+        imageUrl: "data/images/freeway-exit.png", // Optional image URL
       },
       {
         questionText: "HIGHWAY AND EXPRESSWAY GUIDE SIGNS ARE:",
