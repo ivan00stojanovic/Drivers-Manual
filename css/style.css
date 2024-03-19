@@ -250,7 +250,7 @@ button#submit-btn:hover {
 
     /* Add this CSS class for the green animation */
 .correct-option {
-  animation: greenGlow 2s linear, tip 3000ms ease-out;
+  animation: greenGlow 2s linear, tip 2200ms ease-out;
 }
 
 .wrong-option {

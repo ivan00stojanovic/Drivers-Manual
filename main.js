@@ -137,6 +137,12 @@ optionsArray.forEach((option, index) => {
           console.log(correctAnswerIndex + 1)
           correctCounter++
             option.classList.add('correct-option'); // Apply the green animation to the correct option
+            if(correctCounter === 15){
+              setTimeout(() => {
+               alert(`You passed while having only ${incorrectCounter} wrong answers, well done!` );
+               location.reload()
+              }, 20);
+             }
             console.log('Hell Yeah');
         }else{
           incorrectCounter++
@@ -144,6 +150,13 @@ optionsArray.forEach((option, index) => {
           option.classList.add('wrong-option')
           const correctOption = optionsArray[correctAnswerIndex];
           correctOption.classList.add('correct-option');
+          if(incorrectCounter === 4){
+             setTimeout(() => {
+              alert(`You already have ${incorrectCounter} wrong answers, better luck next time!` );
+              location.reload()
+             }, 20);
+            }
+
         }
         nextQuestionBtn.style.display = 'block';
         // Disable all options to prevent further clicks until the user clicks "Next Question"
